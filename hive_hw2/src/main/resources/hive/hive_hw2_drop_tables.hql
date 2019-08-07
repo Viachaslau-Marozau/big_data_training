@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS airports;
+DROP TABLE IF EXISTS carriers;
+DROP TABLE IF EXISTS flights;

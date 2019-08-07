@@ -1,0 +1,3 @@
+0000001,Olinda Windsor Inn,IN,Test
+0000002,Merlin Por Motel,JP,Test
+0000003,Olinda Big River Casino,KR,Test

@@ -1,0 +1,274 @@
+17/10/23 19:33:36.277 main INFO SparkContext: Running Spark version 2.2.0
+17/10/23 19:33:37.380 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/10/23 19:33:37.758 main INFO SparkContext: Submitted application: spark_hw1
+17/10/23 19:33:37.780 main INFO SecurityManager: Changing view acls to: Viachaslau_Marozau
+17/10/23 19:33:37.795 main INFO SecurityManager: Changing modify acls to: Viachaslau_Marozau
+17/10/23 19:33:37.795 main INFO SecurityManager: Changing view acls groups to: 
+17/10/23 19:33:37.795 main INFO SecurityManager: Changing modify acls groups to: 
+17/10/23 19:33:37.795 main INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Viachaslau_Marozau); groups with view permissions: Set(); users  with modify permissions: Set(Viachaslau_Marozau); groups with modify permissions: Set()
+17/10/23 19:33:38.559 main INFO Utils: Successfully started service 'sparkDriver' on port 59307.
+17/10/23 19:33:38.580 main INFO SparkEnv: Registering MapOutputTracker
+17/10/23 19:33:38.596 main INFO SparkEnv: Registering BlockManagerMaster
+17/10/23 19:33:38.596 main INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+17/10/23 19:33:38.596 main INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+17/10/23 19:33:38.881 main INFO DiskBlockManager: Created local directory at C:\Users\Viachaslau_Marozau\AppData\Local\Temp\blockmgr-aab152ac-4c48-4ed4-adbf-9fbfb8dc4041
+17/10/23 19:33:38.997 main INFO MemoryStore: MemoryStore started with capacity 1989.6 MB
+17/10/23 19:33:39.097 main INFO SparkEnv: Registering OutputCommitCoordinator
+17/10/23 19:33:39.213 main INFO log: Logging initialized @4346ms
+17/10/23 19:33:39.282 main INFO Server: jetty-9.3.z-SNAPSHOT
+17/10/23 19:33:39.298 main INFO Server: Started @4437ms
+17/10/23 19:33:39.344 main INFO AbstractConnector: Started ServerConnector@5d6d075e{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+17/10/23 19:33:39.344 main INFO Utils: Successfully started service 'SparkUI' on port 4040.
+17/10/23 19:33:39.382 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@62e70ea3{/jobs,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.382 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@569bf9eb{/jobs/json,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.382 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@274872f8{/jobs/job,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.382 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7c351808{/jobs/job/json,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.382 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@42b64ab8{/stages,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.382 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2a39fe6a{/stages/json,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.382 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@319988b0{/stages/stage,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.382 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@305f031{/stages/stage/json,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.382 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1d1f7216{/stages/pool,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.382 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6e16b8b5{/stages/pool/json,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.382 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@25ddbbbb{/storage,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.382 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4ebea12c{/storage/json,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.382 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6256ac4f{/storage/rdd,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.382 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7fcbe147{/storage/rdd/json,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.398 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@743cb8e0{/environment,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.398 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2c1b9e4b{/environment/json,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.398 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@649725e3{/executors,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.398 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4c168660{/executors/json,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.398 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@fd0e5b6{/executors/threadDump,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.398 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@36b0fcd5{/executors/threadDump/json,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.413 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@475835b1{/static,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.413 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6175619b{/,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.413 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@756cf158{/api,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.413 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@30ea8c23{/jobs/job/kill,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.413 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4e76dac{/stages/stage/kill,null,AVAILABLE,@Spark}
+17/10/23 19:33:39.413 main INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.56.1:4040
+17/10/23 19:33:39.561 main INFO Executor: Starting executor ID driver on host localhost
+17/10/23 19:33:39.645 main INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 59320.
+17/10/23 19:33:39.645 main INFO NettyBlockTransferService: Server created on 192.168.56.1:59320
+17/10/23 19:33:39.645 main INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+17/10/23 19:33:39.645 main INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.56.1, 59320, None)
+17/10/23 19:33:39.661 dispatcher-event-loop-2 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.56.1:59320 with 1989.6 MB RAM, BlockManagerId(driver, 192.168.56.1, 59320, None)
+17/10/23 19:33:39.661 main INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.56.1, 59320, None)
+17/10/23 19:33:39.661 main INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.56.1, 59320, None)
+17/10/23 19:33:39.992 main INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6c2d4cc6{/metrics/json,null,AVAILABLE,@Spark}
+17/10/23 19:33:41.425 main INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 313.6 KB, free 1989.3 MB)
+17/10/23 19:33:41.597 main INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 27.5 KB, free 1989.3 MB)
+17/10/23 19:33:41.603 dispatcher-event-loop-0 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 192.168.56.1:59320 (size: 27.5 KB, free: 1989.6 MB)
+17/10/23 19:33:41.620 main INFO SparkContext: Created broadcast 0 from textFile at Runner.scala:78
+17/10/23 19:33:41.910 main INFO FileInputFormat: Total input paths to process : 1
+17/10/23 19:33:42.073 main INFO SparkContext: Starting job: saveAsTextFile at Runner.scala:42
+17/10/23 19:33:42.096 dag-scheduler-event-loop INFO DAGScheduler: Registering RDD 6 (map at Runner.scala:86)
+17/10/23 19:33:42.100 dag-scheduler-event-loop INFO DAGScheduler: Got job 0 (saveAsTextFile at Runner.scala:42) with 2 output partitions
+17/10/23 19:33:42.101 dag-scheduler-event-loop INFO DAGScheduler: Final stage: ResultStage 1 (saveAsTextFile at Runner.scala:42)
+17/10/23 19:33:42.102 dag-scheduler-event-loop INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 0)
+17/10/23 19:33:42.104 dag-scheduler-event-loop INFO DAGScheduler: Missing parents: List(ShuffleMapStage 0)
+17/10/23 19:33:42.114 dag-scheduler-event-loop INFO DAGScheduler: Submitting ShuffleMapStage 0 (MapPartitionsRDD[6] at map at Runner.scala:86), which has no missing parents
+17/10/23 19:33:42.198 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 4.9 KB, free 1989.3 MB)
+17/10/23 19:33:42.198 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 2.7 KB, free 1989.3 MB)
+17/10/23 19:33:42.198 dispatcher-event-loop-1 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 192.168.56.1:59320 (size: 2.7 KB, free: 1989.6 MB)
+17/10/23 19:33:42.198 dag-scheduler-event-loop INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1006
+17/10/23 19:33:42.220 dag-scheduler-event-loop INFO DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[6] at map at Runner.scala:86) (first 15 tasks are for partitions Vector(0, 1))
+17/10/23 19:33:42.220 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 0.0 with 2 tasks
+17/10/23 19:33:42.282 dispatcher-event-loop-2 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 4896 bytes)
+17/10/23 19:33:42.282 dispatcher-event-loop-2 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 4896 bytes)
+17/10/23 19:33:42.298 Executor task launch worker for task 1 INFO Executor: Running task 1.0 in stage 0.0 (TID 1)
+17/10/23 19:33:42.298 Executor task launch worker for task 0 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+17/10/23 19:33:42.398 Executor task launch worker for task 0 INFO HadoopRDD: Input split: file:/D:/projects/BDT/big_data_training/spark_hw1/input_data/viachaslau_marozau/bids.txt:0+202694
+17/10/23 19:33:42.418 Executor task launch worker for task 1 INFO HadoopRDD: Input split: file:/D:/projects/BDT/big_data_training/spark_hw1/input_data/viachaslau_marozau/bids.txt:202694+202694
+17/10/23 19:33:42.652 Executor task launch worker for task 1 INFO Executor: Finished task 1.0 in stage 0.0 (TID 1). 1111 bytes result sent to driver
+17/10/23 19:33:42.652 Executor task launch worker for task 0 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1111 bytes result sent to driver
+17/10/23 19:33:42.667 task-result-getter-0 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 400 ms on localhost (executor driver) (1/2)
+17/10/23 19:33:42.667 task-result-getter-1 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 385 ms on localhost (executor driver) (2/2)
+17/10/23 19:33:42.667 task-result-getter-1 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+17/10/23 19:33:42.683 dag-scheduler-event-loop INFO DAGScheduler: ShuffleMapStage 0 (map at Runner.scala:86) finished in 0.432 s
+17/10/23 19:33:42.683 dag-scheduler-event-loop INFO DAGScheduler: looking for newly runnable stages
+17/10/23 19:33:42.683 dag-scheduler-event-loop INFO DAGScheduler: running: Set()
+17/10/23 19:33:42.683 dag-scheduler-event-loop INFO DAGScheduler: waiting: Set(ResultStage 1)
+17/10/23 19:33:42.683 dag-scheduler-event-loop INFO DAGScheduler: failed: Set()
+17/10/23 19:33:42.699 dag-scheduler-event-loop INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[9] at saveAsTextFile at Runner.scala:42), which has no missing parents
+17/10/23 19:33:42.736 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 84.4 KB, free 1989.2 MB)
+17/10/23 19:33:42.736 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 30.2 KB, free 1989.1 MB)
+17/10/23 19:33:42.736 dispatcher-event-loop-3 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 192.168.56.1:59320 (size: 30.2 KB, free: 1989.5 MB)
+17/10/23 19:33:42.736 dag-scheduler-event-loop INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1006
+17/10/23 19:33:42.736 dag-scheduler-event-loop INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 1 (MapPartitionsRDD[9] at saveAsTextFile at Runner.scala:42) (first 15 tasks are for partitions Vector(0, 1))
+17/10/23 19:33:42.736 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 1.0 with 2 tasks
+17/10/23 19:33:42.752 dispatcher-event-loop-0 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 2, localhost, executor driver, partition 0, ANY, 4621 bytes)
+17/10/23 19:33:42.752 dispatcher-event-loop-0 INFO TaskSetManager: Starting task 1.0 in stage 1.0 (TID 3, localhost, executor driver, partition 1, ANY, 4621 bytes)
+17/10/23 19:33:42.752 Executor task launch worker for task 2 INFO Executor: Running task 0.0 in stage 1.0 (TID 2)
+17/10/23 19:33:42.752 Executor task launch worker for task 3 INFO Executor: Running task 1.0 in stage 1.0 (TID 3)
+17/10/23 19:33:42.857 Executor task launch worker for task 2 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+17/10/23 19:33:42.857 Executor task launch worker for task 3 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+17/10/23 19:33:42.859 Executor task launch worker for task 2 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 6 ms
+17/10/23 19:33:42.859 Executor task launch worker for task 3 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 5 ms
+17/10/23 19:33:43.081 Executor task launch worker for task 3 INFO FileOutputCommitter: Saved output of task 'attempt_20171023193341_0001_m_000001_3' to file:/D:/projects/BDT/big_data_training/spark_hw1/output_data/viachaslau_marozau/erroneous/_temporary/0/task_20171023193341_0001_m_000001
+17/10/23 19:33:43.081 Executor task launch worker for task 3 INFO SparkHadoopMapRedUtil: attempt_20171023193341_0001_m_000001_3: Committed
+17/10/23 19:33:43.081 Executor task launch worker for task 3 INFO Executor: Finished task 1.0 in stage 1.0 (TID 3). 1181 bytes result sent to driver
+17/10/23 19:33:43.097 task-result-getter-2 INFO TaskSetManager: Finished task 1.0 in stage 1.0 (TID 3) in 345 ms on localhost (executor driver) (1/2)
+17/10/23 19:33:43.144 Executor task launch worker for task 2 INFO FileOutputCommitter: Saved output of task 'attempt_20171023193341_0001_m_000000_2' to file:/D:/projects/BDT/big_data_training/spark_hw1/output_data/viachaslau_marozau/erroneous/_temporary/0/task_20171023193341_0001_m_000000
+17/10/23 19:33:43.144 Executor task launch worker for task 2 INFO SparkHadoopMapRedUtil: attempt_20171023193341_0001_m_000000_2: Committed
+17/10/23 19:33:43.144 Executor task launch worker for task 2 INFO Executor: Finished task 0.0 in stage 1.0 (TID 2). 1181 bytes result sent to driver
+17/10/23 19:33:43.144 task-result-getter-3 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 2) in 408 ms on localhost (executor driver) (2/2)
+17/10/23 19:33:43.144 task-result-getter-3 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+17/10/23 19:33:43.144 dag-scheduler-event-loop INFO DAGScheduler: ResultStage 1 (saveAsTextFile at Runner.scala:42) finished in 0.408 s
+17/10/23 19:33:43.160 main INFO DAGScheduler: Job 0 finished: saveAsTextFile at Runner.scala:42, took 1.090549 s
+17/10/23 19:33:43.344 main INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 313.6 KB, free 1988.8 MB)
+17/10/23 19:33:43.376 main INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 27.5 KB, free 1988.8 MB)
+17/10/23 19:33:43.377 dispatcher-event-loop-3 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 192.168.56.1:59320 (size: 27.5 KB, free: 1989.5 MB)
+17/10/23 19:33:43.378 main INFO SparkContext: Created broadcast 3 from textFile at Runner.scala:92
+17/10/23 19:33:43.397 main INFO FileInputFormat: Total input paths to process : 1
+17/10/23 19:33:43.413 main INFO SparkContext: Starting job: collectAsMap at Runner.scala:95
+17/10/23 19:33:43.413 dag-scheduler-event-loop INFO DAGScheduler: Got job 1 (collectAsMap at Runner.scala:95) with 2 output partitions
+17/10/23 19:33:43.413 dag-scheduler-event-loop INFO DAGScheduler: Final stage: ResultStage 2 (collectAsMap at Runner.scala:95)
+17/10/23 19:33:43.413 dag-scheduler-event-loop INFO DAGScheduler: Parents of final stage: List()
+17/10/23 19:33:43.413 dag-scheduler-event-loop INFO DAGScheduler: Missing parents: List()
+17/10/23 19:33:43.413 dag-scheduler-event-loop INFO DAGScheduler: Submitting ResultStage 2 (MapPartitionsRDD[13] at map at Runner.scala:94), which has no missing parents
+17/10/23 19:33:43.413 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 3.6 KB, free 1988.8 MB)
+17/10/23 19:33:43.444 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 2.0 KB, free 1988.8 MB)
+17/10/23 19:33:43.444 dispatcher-event-loop-0 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 192.168.56.1:59320 (size: 2.0 KB, free: 1989.5 MB)
+17/10/23 19:33:43.444 dag-scheduler-event-loop INFO SparkContext: Created broadcast 4 from broadcast at DAGScheduler.scala:1006
+17/10/23 19:33:43.444 dag-scheduler-event-loop INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 2 (MapPartitionsRDD[13] at map at Runner.scala:94) (first 15 tasks are for partitions Vector(0, 1))
+17/10/23 19:33:43.444 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 2.0 with 2 tasks
+17/10/23 19:33:43.444 dispatcher-event-loop-1 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 4, localhost, executor driver, partition 0, PROCESS_LOCAL, 4916 bytes)
+17/10/23 19:33:43.444 dispatcher-event-loop-1 INFO TaskSetManager: Starting task 1.0 in stage 2.0 (TID 5, localhost, executor driver, partition 1, PROCESS_LOCAL, 4916 bytes)
+17/10/23 19:33:43.444 Executor task launch worker for task 4 INFO Executor: Running task 0.0 in stage 2.0 (TID 4)
+17/10/23 19:33:43.444 Executor task launch worker for task 5 INFO Executor: Running task 1.0 in stage 2.0 (TID 5)
+17/10/23 19:33:43.460 Executor task launch worker for task 4 INFO HadoopRDD: Input split: file:/D:/projects/BDT/big_data_training/spark_hw1/input_data/viachaslau_marozau/exchange_rate.txt:0+127020
+17/10/23 19:33:43.460 Executor task launch worker for task 5 INFO HadoopRDD: Input split: file:/D:/projects/BDT/big_data_training/spark_hw1/input_data/viachaslau_marozau/exchange_rate.txt:127020+127020
+17/10/23 19:33:43.529 dispatcher-event-loop-3 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 192.168.56.1:59320 in memory (size: 30.2 KB, free: 1989.5 MB)
+17/10/23 19:33:43.578 Executor task launch worker for task 5 INFO Executor: Finished task 1.0 in stage 2.0 (TID 5). 159286 bytes result sent to driver
+17/10/23 19:33:43.589 Executor task launch worker for task 4 INFO Executor: Finished task 0.0 in stage 2.0 (TID 4). 159358 bytes result sent to driver
+17/10/23 19:33:43.611 task-result-getter-0 INFO TaskSetManager: Finished task 1.0 in stage 2.0 (TID 5) in 167 ms on localhost (executor driver) (1/2)
+17/10/23 19:33:43.622 task-result-getter-1 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 4) in 178 ms on localhost (executor driver) (2/2)
+17/10/23 19:33:43.623 task-result-getter-1 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+17/10/23 19:33:43.625 dag-scheduler-event-loop INFO DAGScheduler: ResultStage 2 (collectAsMap at Runner.scala:95) finished in 0.180 s
+17/10/23 19:33:43.625 dispatcher-event-loop-2 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 192.168.56.1:59320 in memory (size: 2.7 KB, free: 1989.5 MB)
+17/10/23 19:33:43.626 main INFO DAGScheduler: Job 1 finished: collectAsMap at Runner.scala:95, took 0.204507 s
+17/10/23 19:33:43.745 main INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 313.6 KB, free 1988.6 MB)
+17/10/23 19:33:43.771 main INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 27.5 KB, free 1988.6 MB)
+17/10/23 19:33:43.774 dispatcher-event-loop-1 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on 192.168.56.1:59320 (size: 27.5 KB, free: 1989.5 MB)
+17/10/23 19:33:43.775 main INFO SparkContext: Created broadcast 5 from textFile at Runner.scala:111
+17/10/23 19:33:43.801 main INFO FileInputFormat: Total input paths to process : 1
+17/10/23 19:33:43.908 main INFO SparkContext: Starting job: saveAsTextFile at Runner.scala:74
+17/10/23 19:33:43.910 dag-scheduler-event-loop INFO DAGScheduler: Registering RDD 22 (map at Runner.scala:117)
+17/10/23 19:33:43.911 dag-scheduler-event-loop INFO DAGScheduler: Registering RDD 21 (map at Runner.scala:113)
+17/10/23 19:33:43.911 dag-scheduler-event-loop INFO DAGScheduler: Registering RDD 27 (map at Runner.scala:133)
+17/10/23 19:33:43.911 dag-scheduler-event-loop INFO DAGScheduler: Got job 2 (saveAsTextFile at Runner.scala:74) with 2 output partitions
+17/10/23 19:33:43.912 dag-scheduler-event-loop INFO DAGScheduler: Final stage: ResultStage 6 (saveAsTextFile at Runner.scala:74)
+17/10/23 19:33:43.912 dag-scheduler-event-loop INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 5)
+17/10/23 19:33:43.912 dag-scheduler-event-loop INFO DAGScheduler: Missing parents: List(ShuffleMapStage 5)
+17/10/23 19:33:43.917 dag-scheduler-event-loop INFO DAGScheduler: Submitting ShuffleMapStage 3 (MapPartitionsRDD[22] at map at Runner.scala:117), which has no missing parents
+17/10/23 19:33:43.946 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 261.9 KB, free 1988.3 MB)
+17/10/23 19:33:43.954 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 96.3 KB, free 1988.2 MB)
+17/10/23 19:33:43.957 dispatcher-event-loop-0 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on 192.168.56.1:59320 (size: 96.3 KB, free: 1989.4 MB)
+17/10/23 19:33:43.958 dag-scheduler-event-loop INFO SparkContext: Created broadcast 6 from broadcast at DAGScheduler.scala:1006
+17/10/23 19:33:43.959 dag-scheduler-event-loop INFO DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 3 (MapPartitionsRDD[22] at map at Runner.scala:117) (first 15 tasks are for partitions Vector(0, 1))
+17/10/23 19:33:43.959 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 3.0 with 2 tasks
+17/10/23 19:33:43.960 dag-scheduler-event-loop INFO DAGScheduler: Submitting ShuffleMapStage 4 (MapPartitionsRDD[21] at map at Runner.scala:113), which has no missing parents
+17/10/23 19:33:43.963 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 4.2 KB, free 1988.2 MB)
+17/10/23 19:33:43.965 dispatcher-event-loop-3 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 6, localhost, executor driver, partition 0, PROCESS_LOCAL, 4896 bytes)
+17/10/23 19:33:43.965 dispatcher-event-loop-3 INFO TaskSetManager: Starting task 1.0 in stage 3.0 (TID 7, localhost, executor driver, partition 1, PROCESS_LOCAL, 4896 bytes)
+17/10/23 19:33:43.968 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 2.4 KB, free 1988.2 MB)
+17/10/23 19:33:43.970 Executor task launch worker for task 7 INFO Executor: Running task 1.0 in stage 3.0 (TID 7)
+17/10/23 19:33:43.971 dispatcher-event-loop-3 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on 192.168.56.1:59320 (size: 2.4 KB, free: 1989.4 MB)
+17/10/23 19:33:43.970 Executor task launch worker for task 6 INFO Executor: Running task 0.0 in stage 3.0 (TID 6)
+17/10/23 19:33:43.978 dag-scheduler-event-loop INFO SparkContext: Created broadcast 7 from broadcast at DAGScheduler.scala:1006
+17/10/23 19:33:43.979 dag-scheduler-event-loop INFO DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 4 (MapPartitionsRDD[21] at map at Runner.scala:113) (first 15 tasks are for partitions Vector(0, 1))
+17/10/23 19:33:43.980 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 4.0 with 2 tasks
+17/10/23 19:33:44.016 Executor task launch worker for task 7 INFO HadoopRDD: Input split: file:/D:/projects/BDT/big_data_training/spark_hw1/input_data/viachaslau_marozau/bids.txt:202694+202694
+17/10/23 19:33:44.016 Executor task launch worker for task 6 INFO HadoopRDD: Input split: file:/D:/projects/BDT/big_data_training/spark_hw1/input_data/viachaslau_marozau/bids.txt:0+202694
+17/10/23 19:33:44.279 dispatcher-event-loop-0 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 192.168.56.1:59320 in memory (size: 27.5 KB, free: 1989.4 MB)
+17/10/23 19:33:44.283 dispatcher-event-loop-1 INFO BlockManagerInfo: Removed broadcast_4_piece0 on 192.168.56.1:59320 in memory (size: 2.0 KB, free: 1989.4 MB)
+17/10/23 19:33:44.339 Executor task launch worker for task 6 INFO Executor: Finished task 0.0 in stage 3.0 (TID 6). 1025 bytes result sent to driver
+17/10/23 19:33:44.341 dispatcher-event-loop-0 INFO TaskSetManager: Starting task 0.0 in stage 4.0 (TID 8, localhost, executor driver, partition 0, PROCESS_LOCAL, 4898 bytes)
+17/10/23 19:33:44.341 task-result-getter-2 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 6) in 378 ms on localhost (executor driver) (1/2)
+17/10/23 19:33:44.342 Executor task launch worker for task 8 INFO Executor: Running task 0.0 in stage 4.0 (TID 8)
+17/10/23 19:33:44.345 Executor task launch worker for task 8 INFO HadoopRDD: Input split: file:/D:/projects/BDT/big_data_training/spark_hw1/input_data/viachaslau_marozau/motels.txt:0+2763
+17/10/23 19:33:44.411 Executor task launch worker for task 7 INFO Executor: Finished task 1.0 in stage 3.0 (TID 7). 1025 bytes result sent to driver
+17/10/23 19:33:44.413 dispatcher-event-loop-2 INFO TaskSetManager: Starting task 1.0 in stage 4.0 (TID 9, localhost, executor driver, partition 1, PROCESS_LOCAL, 4898 bytes)
+17/10/23 19:33:44.416 Executor task launch worker for task 8 INFO Executor: Finished task 0.0 in stage 4.0 (TID 8). 939 bytes result sent to driver
+17/10/23 19:33:44.419 task-result-getter-3 INFO TaskSetManager: Finished task 1.0 in stage 3.0 (TID 7) in 454 ms on localhost (executor driver) (2/2)
+17/10/23 19:33:44.420 task-result-getter-3 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+17/10/23 19:33:44.421 dag-scheduler-event-loop INFO DAGScheduler: ShuffleMapStage 3 (map at Runner.scala:117) finished in 0.461 s
+17/10/23 19:33:44.421 dag-scheduler-event-loop INFO DAGScheduler: looking for newly runnable stages
+17/10/23 19:33:44.421 dag-scheduler-event-loop INFO DAGScheduler: running: Set(ShuffleMapStage 4)
+17/10/23 19:33:44.421 dag-scheduler-event-loop INFO DAGScheduler: waiting: Set(ShuffleMapStage 5, ResultStage 6)
+17/10/23 19:33:44.421 dag-scheduler-event-loop INFO DAGScheduler: failed: Set()
+17/10/23 19:33:44.423 task-result-getter-0 INFO TaskSetManager: Finished task 0.0 in stage 4.0 (TID 8) in 83 ms on localhost (executor driver) (1/2)
+17/10/23 19:33:44.441 Executor task launch worker for task 9 INFO Executor: Running task 1.0 in stage 4.0 (TID 9)
+17/10/23 19:33:44.444 Executor task launch worker for task 9 INFO HadoopRDD: Input split: file:/D:/projects/BDT/big_data_training/spark_hw1/input_data/viachaslau_marozau/motels.txt:2763+2763
+17/10/23 19:33:44.505 Executor task launch worker for task 9 INFO Executor: Finished task 1.0 in stage 4.0 (TID 9). 982 bytes result sent to driver
+17/10/23 19:33:44.506 task-result-getter-1 INFO TaskSetManager: Finished task 1.0 in stage 4.0 (TID 9) in 94 ms on localhost (executor driver) (2/2)
+17/10/23 19:33:44.506 task-result-getter-1 INFO TaskSchedulerImpl: Removed TaskSet 4.0, whose tasks have all completed, from pool 
+17/10/23 19:33:44.507 dag-scheduler-event-loop INFO DAGScheduler: ShuffleMapStage 4 (map at Runner.scala:113) finished in 0.526 s
+17/10/23 19:33:44.507 dag-scheduler-event-loop INFO DAGScheduler: looking for newly runnable stages
+17/10/23 19:33:44.507 dag-scheduler-event-loop INFO DAGScheduler: running: Set()
+17/10/23 19:33:44.507 dag-scheduler-event-loop INFO DAGScheduler: waiting: Set(ShuffleMapStage 5, ResultStage 6)
+17/10/23 19:33:44.507 dag-scheduler-event-loop INFO DAGScheduler: failed: Set()
+17/10/23 19:33:44.508 dag-scheduler-event-loop INFO DAGScheduler: Submitting ShuffleMapStage 5 (MapPartitionsRDD[27] at map at Runner.scala:133), which has no missing parents
+17/10/23 19:33:44.517 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_8 stored as values in memory (estimated size 3.8 KB, free 1988.6 MB)
+17/10/23 19:33:44.520 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 2.1 KB, free 1988.6 MB)
+17/10/23 19:33:44.523 dispatcher-event-loop-2 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on 192.168.56.1:59320 (size: 2.1 KB, free: 1989.4 MB)
+17/10/23 19:33:44.524 dag-scheduler-event-loop INFO SparkContext: Created broadcast 8 from broadcast at DAGScheduler.scala:1006
+17/10/23 19:33:44.525 dag-scheduler-event-loop INFO DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 5 (MapPartitionsRDD[27] at map at Runner.scala:133) (first 15 tasks are for partitions Vector(0, 1))
+17/10/23 19:33:44.525 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 5.0 with 2 tasks
+17/10/23 19:33:44.527 dispatcher-event-loop-1 INFO TaskSetManager: Starting task 0.0 in stage 5.0 (TID 10, localhost, executor driver, partition 0, PROCESS_LOCAL, 4673 bytes)
+17/10/23 19:33:44.528 dispatcher-event-loop-1 INFO TaskSetManager: Starting task 1.0 in stage 5.0 (TID 11, localhost, executor driver, partition 1, PROCESS_LOCAL, 4673 bytes)
+17/10/23 19:33:44.528 Executor task launch worker for task 10 INFO Executor: Running task 0.0 in stage 5.0 (TID 10)
+17/10/23 19:33:44.528 Executor task launch worker for task 11 INFO Executor: Running task 1.0 in stage 5.0 (TID 11)
+17/10/23 19:33:44.536 Executor task launch worker for task 11 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+17/10/23 19:33:44.536 Executor task launch worker for task 10 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+17/10/23 19:33:44.536 Executor task launch worker for task 11 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/10/23 19:33:44.536 Executor task launch worker for task 10 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/10/23 19:33:44.538 Executor task launch worker for task 11 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+17/10/23 19:33:44.538 Executor task launch worker for task 10 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+17/10/23 19:33:44.538 Executor task launch worker for task 11 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/10/23 19:33:44.538 Executor task launch worker for task 10 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/10/23 19:33:45.060 Executor task launch worker for task 10 INFO Executor: Finished task 0.0 in stage 5.0 (TID 10). 1240 bytes result sent to driver
+17/10/23 19:33:45.061 task-result-getter-2 INFO TaskSetManager: Finished task 0.0 in stage 5.0 (TID 10) in 535 ms on localhost (executor driver) (1/2)
+17/10/23 19:33:45.110 Executor task launch worker for task 11 INFO Executor: Finished task 1.0 in stage 5.0 (TID 11). 1240 bytes result sent to driver
+17/10/23 19:33:45.111 task-result-getter-3 INFO TaskSetManager: Finished task 1.0 in stage 5.0 (TID 11) in 584 ms on localhost (executor driver) (2/2)
+17/10/23 19:33:45.111 task-result-getter-3 INFO TaskSchedulerImpl: Removed TaskSet 5.0, whose tasks have all completed, from pool 
+17/10/23 19:33:45.112 dag-scheduler-event-loop INFO DAGScheduler: ShuffleMapStage 5 (map at Runner.scala:133) finished in 0.585 s
+17/10/23 19:33:45.112 dag-scheduler-event-loop INFO DAGScheduler: looking for newly runnable stages
+17/10/23 19:33:45.112 dag-scheduler-event-loop INFO DAGScheduler: running: Set()
+17/10/23 19:33:45.112 dag-scheduler-event-loop INFO DAGScheduler: waiting: Set(ResultStage 6)
+17/10/23 19:33:45.112 dag-scheduler-event-loop INFO DAGScheduler: failed: Set()
+17/10/23 19:33:45.112 dag-scheduler-event-loop INFO DAGScheduler: Submitting ResultStage 6 (MapPartitionsRDD[30] at saveAsTextFile at Runner.scala:74), which has no missing parents
+17/10/23 19:33:45.141 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_9 stored as values in memory (estimated size 84.3 KB, free 1988.5 MB)
+17/10/23 19:33:45.145 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 30.2 KB, free 1988.5 MB)
+17/10/23 19:33:45.150 dispatcher-event-loop-0 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on 192.168.56.1:59320 (size: 30.2 KB, free: 1989.4 MB)
+17/10/23 19:33:45.150 dag-scheduler-event-loop INFO SparkContext: Created broadcast 9 from broadcast at DAGScheduler.scala:1006
+17/10/23 19:33:45.151 dag-scheduler-event-loop INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 6 (MapPartitionsRDD[30] at saveAsTextFile at Runner.scala:74) (first 15 tasks are for partitions Vector(0, 1))
+17/10/23 19:33:45.151 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 6.0 with 2 tasks
+17/10/23 19:33:45.152 dispatcher-event-loop-3 INFO TaskSetManager: Starting task 0.0 in stage 6.0 (TID 12, localhost, executor driver, partition 0, ANY, 4621 bytes)
+17/10/23 19:33:45.152 dispatcher-event-loop-3 INFO TaskSetManager: Starting task 1.0 in stage 6.0 (TID 13, localhost, executor driver, partition 1, ANY, 4621 bytes)
+17/10/23 19:33:45.153 Executor task launch worker for task 13 INFO Executor: Running task 1.0 in stage 6.0 (TID 13)
+17/10/23 19:33:45.153 Executor task launch worker for task 12 INFO Executor: Running task 0.0 in stage 6.0 (TID 12)
+17/10/23 19:33:45.170 Executor task launch worker for task 12 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+17/10/23 19:33:45.171 Executor task launch worker for task 12 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+17/10/23 19:33:45.172 Executor task launch worker for task 13 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+17/10/23 19:33:45.172 Executor task launch worker for task 13 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/10/23 19:33:45.434 Executor task launch worker for task 12 INFO FileOutputCommitter: Saved output of task 'attempt_20171023193343_0006_m_000000_12' to file:/D:/projects/BDT/big_data_training/spark_hw1/output_data/viachaslau_marozau/aggregated/_temporary/0/task_20171023193343_0006_m_000000
+17/10/23 19:33:45.434 Executor task launch worker for task 12 INFO SparkHadoopMapRedUtil: attempt_20171023193343_0006_m_000000_12: Committed
+17/10/23 19:33:45.434 Executor task launch worker for task 12 INFO Executor: Finished task 0.0 in stage 6.0 (TID 12). 1181 bytes result sent to driver
+17/10/23 19:33:45.434 task-result-getter-0 INFO TaskSetManager: Finished task 0.0 in stage 6.0 (TID 12) in 282 ms on localhost (executor driver) (1/2)
+17/10/23 19:33:45.449 Executor task launch worker for task 13 INFO FileOutputCommitter: Saved output of task 'attempt_20171023193343_0006_m_000001_13' to file:/D:/projects/BDT/big_data_training/spark_hw1/output_data/viachaslau_marozau/aggregated/_temporary/0/task_20171023193343_0006_m_000001
+17/10/23 19:33:45.465 Executor task launch worker for task 13 INFO SparkHadoopMapRedUtil: attempt_20171023193343_0006_m_000001_13: Committed
+17/10/23 19:33:45.465 Executor task launch worker for task 13 INFO Executor: Finished task 1.0 in stage 6.0 (TID 13). 1181 bytes result sent to driver
+17/10/23 19:33:45.465 task-result-getter-1 INFO TaskSetManager: Finished task 1.0 in stage 6.0 (TID 13) in 313 ms on localhost (executor driver) (2/2)
+17/10/23 19:33:45.465 task-result-getter-1 INFO TaskSchedulerImpl: Removed TaskSet 6.0, whose tasks have all completed, from pool 
+17/10/23 19:33:45.465 dag-scheduler-event-loop INFO DAGScheduler: ResultStage 6 (saveAsTextFile at Runner.scala:74) finished in 0.313 s
+17/10/23 19:33:45.465 main INFO DAGScheduler: Job 2 finished: saveAsTextFile at Runner.scala:74, took 1.563243 s
+17/10/23 19:33:45.634 main INFO AbstractConnector: Stopped Spark@5d6d075e{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+17/10/23 19:33:45.634 main INFO SparkUI: Stopped Spark web UI at http://192.168.56.1:4040
+17/10/23 19:33:45.650 dispatcher-event-loop-2 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+17/10/23 19:33:45.766 main INFO MemoryStore: MemoryStore cleared
+17/10/23 19:33:45.766 main INFO BlockManager: BlockManager stopped
+17/10/23 19:33:45.766 main INFO BlockManagerMaster: BlockManagerMaster stopped
+17/10/23 19:33:45.766 dispatcher-event-loop-2 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+17/10/23 19:33:45.782 main INFO SparkContext: Successfully stopped SparkContext
+17/10/23 19:33:45.788 pool-6-thread-1 INFO ShutdownHookManager: Shutdown hook called
+17/10/23 19:33:45.788 pool-6-thread-1 INFO ShutdownHookManager: Deleting directory C:\Users\Viachaslau_Marozau\AppData\Local\Temp\spark-4ae91c9b-a315-438e-940a-cecbafde0012

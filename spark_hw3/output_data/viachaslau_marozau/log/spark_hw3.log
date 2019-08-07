@@ -1,0 +1,564 @@
+17/11/21 18:46:25 DEBUG KafkaKryoMonitoringRecordSerDe: KafkaKryoMonitoringRecordSerDe.configure() called
+17/11/21 18:46:25 DEBUG KafkaKryoMonitoringRecordSerDe: KafkaKryoMonitoringRecordSerDe.close() called
+17/11/21 18:46:25 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=00:00, dateGMT=2014-01-01, timeGMT=05:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:46:25 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:46:25 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=00:00, dateGMT=2014-01-01, timeGMT=05:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:46:25 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:46:25 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2016-01-23, timeLocal=04:00, dateGMT=2016-01-23, timeGMT=09:00, sampleMeasurement=0.035, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2016-02-18, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:46:25 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:46:25 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2016-01-23, timeLocal=04:00, dateGMT=2016-01-23, timeGMT=09:00, sampleMeasurement=0.035, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=050, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2016-02-18, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:46:25 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:47:41 DEBUG KafkaKryoMonitoringRecordSerDe: KafkaKryoMonitoringRecordSerDe.configure() called
+17/11/21 18:47:41 DEBUG KafkaKryoMonitoringRecordSerDe: KafkaKryoMonitoringRecordSerDe.close() called
+17/11/21 18:47:42 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=00:00, dateGMT=2014-01-01, timeGMT=05:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:47:42 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:47:42 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=00:00, dateGMT=2014-01-01, timeGMT=05:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:47:42 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:47:42 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2016-01-23, timeLocal=04:00, dateGMT=2016-01-23, timeGMT=09:00, sampleMeasurement=0.035, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2016-02-18, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:47:42 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:47:42 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2016-01-23, timeLocal=04:00, dateGMT=2016-01-23, timeGMT=09:00, sampleMeasurement=0.035, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=050, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2016-02-18, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:47:42 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:57:31 INFO PropertiesLoader: {enriched.topic=monitoringEnriched2, retries=0, sample.file=./input_data/viachaslau_marozau/one_device_2015-2017.csv, acks=all, app.name=AnomalyDetector, spark.streaming.kafka.maxRatePerPartition=500, buffer.memory=33554432, enable.auto.commit=true, checkpoint.dir=./checkpoint, spark.streaming.backpressure.enabled=true, batch.size=100, window.duration=60000, skip.header=true, batch.duration=10000, group.id=detector_group, auto.offset.reset=latest, raw.topic=monitoring20, spark.kryo.registrator=com.epam.courses.spark.streaming.serde.SparkKryoHTMRegistrator, spark.kryo.registrationRequired=true, use.krio.producer=false, linger.ms=1, bootstrap.servers=localhost:9092, spark.serializer=org.apache.spark.serializer.KryoSerializer, checkpoint.interval=600000, batch.sleep=0}
+17/11/21 18:57:31 INFO ProducerConfig: ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 100
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class com.epam.courses.spark.streaming.serde.KafkaJsonMonitoringRecordSerDe
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class com.epam.courses.spark.streaming.kafka.MonitoringRecordPartitioner
+	linger.ms = 1
+
+17/11/21 18:57:32 INFO ProducerConfig: ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = producer-1
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 100
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class com.epam.courses.spark.streaming.serde.KafkaJsonMonitoringRecordSerDe
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class com.epam.courses.spark.streaming.kafka.MonitoringRecordPartitioner
+	linger.ms = 1
+
+17/11/21 18:57:32 INFO AppInfoParser: Kafka version : 0.10.0.1
+17/11/21 18:57:32 INFO AppInfoParser: Kafka commitId : a7a17cdec9eaa6c5
+17/11/21 18:57:32 INFO TopicGenerator: Prepare record: key - ﻿10-001-0002-44201-1, record - MonitoringRecord [stateCode=﻿10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=00:00, dateGMT=2014-01-01, timeGMT=05:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:57:32 DEBUG MonitoringRecordPartitioner: Partition for key: ﻿10-001-0002-44201-1 value: 0
+17/11/21 18:57:32 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:57:32 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=01:00, dateGMT=2014-01-01, timeGMT=06:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:57:32 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:57:32 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:57:32 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=02:00, dateGMT=2014-01-01, timeGMT=07:00, sampleMeasurement=0.019, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:57:32 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:57:32 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:57:32 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=03:00, dateGMT=2014-01-01, timeGMT=08:00, sampleMeasurement=0.018, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:57:32 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:57:32 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:57:32 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=04:00, dateGMT=2014-01-01, timeGMT=09:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:57:32 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:57:32 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:57:32 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=05:00, dateGMT=2014-01-01, timeGMT=10:00, sampleMeasurement=0.012, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:57:32 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:57:32 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:57:32 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=06:00, dateGMT=2014-01-01, timeGMT=11:00, sampleMeasurement=0.013, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:57:32 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:57:32 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:57:32 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=07:00, dateGMT=2014-01-01, timeGMT=12:00, sampleMeasurement=0.012, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:57:32 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:57:32 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:57:32 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=08:00, dateGMT=2014-01-01, timeGMT=13:00, sampleMeasurement=0.013, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:57:32 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:57:32 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:57:32 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=09:00, dateGMT=2014-01-01, timeGMT=14:00, sampleMeasurement=0.023, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:57:32 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:57:32 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:57:32 INFO KafkaProducer: Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+17/11/21 18:58:41 INFO PropertiesLoader: {enriched.topic=monitoringEnriched2, retries=0, sample.file=./input_data/viachaslau_marozau/one_device_2015-2017.csv, acks=all, app.name=AnomalyDetector, spark.streaming.kafka.maxRatePerPartition=500, buffer.memory=33554432, enable.auto.commit=true, checkpoint.dir=./checkpoint, spark.streaming.backpressure.enabled=true, batch.size=100, window.duration=60000, skip.header=true, batch.duration=10000, group.id=detector_group, auto.offset.reset=latest, raw.topic=monitoring20, spark.kryo.registrator=com.epam.courses.spark.streaming.serde.SparkKryoHTMRegistrator, spark.kryo.registrationRequired=true, use.krio.producer=false, linger.ms=1, bootstrap.servers=localhost:9092, spark.serializer=org.apache.spark.serializer.KryoSerializer, checkpoint.interval=600000, batch.sleep=0}
+17/11/21 18:58:41 INFO ProducerConfig: ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 100
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class com.epam.courses.spark.streaming.serde.KafkaJsonMonitoringRecordSerDe
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class com.epam.courses.spark.streaming.kafka.MonitoringRecordPartitioner
+	linger.ms = 1
+
+17/11/21 18:58:42 INFO ProducerConfig: ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = producer-1
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 100
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class com.epam.courses.spark.streaming.serde.KafkaJsonMonitoringRecordSerDe
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class com.epam.courses.spark.streaming.kafka.MonitoringRecordPartitioner
+	linger.ms = 1
+
+17/11/21 18:58:42 INFO AppInfoParser: Kafka version : 0.10.0.1
+17/11/21 18:58:42 INFO AppInfoParser: Kafka commitId : a7a17cdec9eaa6c5
+17/11/21 18:58:42 INFO TopicGenerator: Prepare record: key - ﻿10-001-0002-44201-1, record - MonitoringRecord [stateCode=﻿10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=00:00, dateGMT=2014-01-01, timeGMT=05:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:58:43 DEBUG MonitoringRecordPartitioner: Partition for key: ﻿10-001-0002-44201-1 value: 0
+17/11/21 18:58:43 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:58:43 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=01:00, dateGMT=2014-01-01, timeGMT=06:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:58:43 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:58:43 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:58:43 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=02:00, dateGMT=2014-01-01, timeGMT=07:00, sampleMeasurement=0.019, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:58:43 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:58:43 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:58:43 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=03:00, dateGMT=2014-01-01, timeGMT=08:00, sampleMeasurement=0.018, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:58:43 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:58:43 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:58:43 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=04:00, dateGMT=2014-01-01, timeGMT=09:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:58:43 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:58:43 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:58:43 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=05:00, dateGMT=2014-01-01, timeGMT=10:00, sampleMeasurement=0.012, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:58:43 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:58:43 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:58:43 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=06:00, dateGMT=2014-01-01, timeGMT=11:00, sampleMeasurement=0.013, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:58:43 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:58:43 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:58:43 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=07:00, dateGMT=2014-01-01, timeGMT=12:00, sampleMeasurement=0.012, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:58:43 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:58:43 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:58:43 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=08:00, dateGMT=2014-01-01, timeGMT=13:00, sampleMeasurement=0.013, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:58:43 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:58:43 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:58:43 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=09:00, dateGMT=2014-01-01, timeGMT=14:00, sampleMeasurement=0.023, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:58:43 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:58:43 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:58:43 INFO KafkaProducer: Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+17/11/21 18:59:39 INFO PropertiesLoader: {enriched.topic=monitoringEnriched2, retries=0, sample.file=./input_data/viachaslau_marozau/one_device_2015-2017.csv, acks=all, app.name=AnomalyDetector, spark.streaming.kafka.maxRatePerPartition=500, buffer.memory=33554432, enable.auto.commit=true, checkpoint.dir=./checkpoint, spark.streaming.backpressure.enabled=true, batch.size=100, window.duration=60000, skip.header=true, batch.duration=10000, group.id=detector_group, auto.offset.reset=latest, raw.topic=monitoring20, spark.kryo.registrator=com.epam.courses.spark.streaming.serde.SparkKryoHTMRegistrator, spark.kryo.registrationRequired=true, use.krio.producer=false, linger.ms=1, bootstrap.servers=localhost:9092, spark.serializer=org.apache.spark.serializer.KryoSerializer, checkpoint.interval=600000, batch.sleep=0}
+17/11/21 18:59:39 INFO ProducerConfig: ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 100
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class com.epam.courses.spark.streaming.serde.KafkaJsonMonitoringRecordSerDe
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class com.epam.courses.spark.streaming.kafka.MonitoringRecordPartitioner
+	linger.ms = 1
+
+17/11/21 18:59:40 INFO ProducerConfig: ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = producer-1
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 100
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class com.epam.courses.spark.streaming.serde.KafkaJsonMonitoringRecordSerDe
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class com.epam.courses.spark.streaming.kafka.MonitoringRecordPartitioner
+	linger.ms = 1
+
+17/11/21 18:59:40 INFO AppInfoParser: Kafka version : 0.10.0.1
+17/11/21 18:59:40 INFO AppInfoParser: Kafka commitId : a7a17cdec9eaa6c5
+17/11/21 18:59:40 INFO TopicGenerator: Prepare record: key - ﻿10-001-0002-44201-1, record - MonitoringRecord [stateCode=﻿10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=00:00, dateGMT=2014-01-01, timeGMT=05:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:41 DEBUG MonitoringRecordPartitioner: Partition for key: ﻿10-001-0002-44201-1 value: 0
+17/11/21 18:59:41 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:41 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=01:00, dateGMT=2014-01-01, timeGMT=06:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:41 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:41 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:41 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=02:00, dateGMT=2014-01-01, timeGMT=07:00, sampleMeasurement=0.019, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:41 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:41 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:41 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=03:00, dateGMT=2014-01-01, timeGMT=08:00, sampleMeasurement=0.018, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:41 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:41 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:41 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=04:00, dateGMT=2014-01-01, timeGMT=09:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:41 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:41 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:41 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=05:00, dateGMT=2014-01-01, timeGMT=10:00, sampleMeasurement=0.012, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:41 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:41 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:41 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=06:00, dateGMT=2014-01-01, timeGMT=11:00, sampleMeasurement=0.013, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:41 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:41 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:41 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=07:00, dateGMT=2014-01-01, timeGMT=12:00, sampleMeasurement=0.012, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:41 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:41 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:41 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=08:00, dateGMT=2014-01-01, timeGMT=13:00, sampleMeasurement=0.013, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:41 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:41 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:41 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=09:00, dateGMT=2014-01-01, timeGMT=14:00, sampleMeasurement=0.023, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:41 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:41 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:41 INFO KafkaProducer: Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+17/11/21 18:59:52 INFO PropertiesLoader: {enriched.topic=monitoringEnriched2, retries=0, sample.file=./input_data/viachaslau_marozau/one_device_2015-2017.csv, acks=all, app.name=AnomalyDetector, spark.streaming.kafka.maxRatePerPartition=500, buffer.memory=33554432, enable.auto.commit=true, checkpoint.dir=./checkpoint, spark.streaming.backpressure.enabled=true, batch.size=100, window.duration=60000, skip.header=true, batch.duration=10000, group.id=detector_group, auto.offset.reset=latest, raw.topic=monitoring20, spark.kryo.registrator=com.epam.courses.spark.streaming.serde.SparkKryoHTMRegistrator, spark.kryo.registrationRequired=true, use.krio.producer=false, linger.ms=1, bootstrap.servers=localhost:9092, spark.serializer=org.apache.spark.serializer.KryoSerializer, checkpoint.interval=600000, batch.sleep=0}
+17/11/21 18:59:52 INFO ProducerConfig: ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 100
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class com.epam.courses.spark.streaming.serde.KafkaJsonMonitoringRecordSerDe
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class com.epam.courses.spark.streaming.kafka.MonitoringRecordPartitioner
+	linger.ms = 1
+
+17/11/21 18:59:53 INFO ProducerConfig: ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = producer-1
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 100
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class com.epam.courses.spark.streaming.serde.KafkaJsonMonitoringRecordSerDe
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class com.epam.courses.spark.streaming.kafka.MonitoringRecordPartitioner
+	linger.ms = 1
+
+17/11/21 18:59:53 INFO AppInfoParser: Kafka version : 0.10.0.1
+17/11/21 18:59:53 INFO AppInfoParser: Kafka commitId : a7a17cdec9eaa6c5
+17/11/21 18:59:53 INFO TopicGenerator: Prepare record: key - ﻿10-001-0002-44201-1, record - MonitoringRecord [stateCode=﻿10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=00:00, dateGMT=2014-01-01, timeGMT=05:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:53 DEBUG MonitoringRecordPartitioner: Partition for key: ﻿10-001-0002-44201-1 value: 0
+17/11/21 18:59:53 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:53 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=01:00, dateGMT=2014-01-01, timeGMT=06:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:53 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:53 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:53 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=02:00, dateGMT=2014-01-01, timeGMT=07:00, sampleMeasurement=0.019, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:53 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:53 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:53 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=03:00, dateGMT=2014-01-01, timeGMT=08:00, sampleMeasurement=0.018, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:53 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:53 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:53 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=04:00, dateGMT=2014-01-01, timeGMT=09:00, sampleMeasurement=0.016, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:53 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:53 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:53 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=05:00, dateGMT=2014-01-01, timeGMT=10:00, sampleMeasurement=0.012, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:53 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:53 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:53 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=06:00, dateGMT=2014-01-01, timeGMT=11:00, sampleMeasurement=0.013, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:53 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:53 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:53 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=07:00, dateGMT=2014-01-01, timeGMT=12:00, sampleMeasurement=0.012, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:53 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:53 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:53 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=08:00, dateGMT=2014-01-01, timeGMT=13:00, sampleMeasurement=0.013, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:53 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:53 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:53 INFO TopicGenerator: Prepare record: key - 10-001-0002-44201-1, record - MonitoringRecord [stateCode=10, countyCode=001, siteNum=0002, parameterCode=44201, poc=1, latitude=38.986672, longitude=-75.5568, datum=WGS84, parameterName=Ozone, dateLocal=2014-01-01, timeLocal=09:00, dateGMT=2014-01-01, timeGMT=14:00, sampleMeasurement=0.023, unitsOfMeasure=Parts per million, mdl=0.005, uncertainty=, qualifier=, methodType=FEM, methodCode=047, methodName=INSTRUMENTAL - ULTRA VIOLET, stateName=Delaware, countyName=Kent, dateOfLastChange=2014-02-12, prediction=0.0, error=0.0, anomaly=0.0, predictionNext=0.0]
+17/11/21 18:59:53 DEBUG MonitoringRecordPartitioner: Partition for key: 10-001-0002-44201-1 value: 0
+17/11/21 18:59:53 INFO TopicGenerator: Sent record:  key - %s, record - %s
+17/11/21 18:59:53 INFO KafkaProducer: Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.

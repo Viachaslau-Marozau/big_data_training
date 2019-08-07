@@ -1,0 +1,1282 @@
+17/11/08 09:45:28.983 main INFO SparkContext: Running Spark version 1.6.2
+17/11/08 09:45:29.733 main WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/11/08 09:45:29.827 main INFO SecurityManager: Changing view acls to: Viachaslau_Marozau
+17/11/08 09:45:29.843 main INFO SecurityManager: Changing modify acls to: Viachaslau_Marozau
+17/11/08 09:45:29.843 main INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(Viachaslau_Marozau); users with modify permissions: Set(Viachaslau_Marozau)
+17/11/08 09:45:30.374 main INFO Utils: Successfully started service 'sparkDriver' on port 52727.
+17/11/08 09:45:30.702 sparkDriverActorSystem-akka.actor.default-dispatcher-3 INFO Slf4jLogger: Slf4jLogger started
+17/11/08 09:45:30.733 sparkDriverActorSystem-akka.actor.default-dispatcher-3 INFO Remoting: Starting remoting
+17/11/08 09:45:30.937 sparkDriverActorSystem-akka.actor.default-dispatcher-3 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@192.168.56.1:52740]
+17/11/08 09:45:30.937 main INFO Utils: Successfully started service 'sparkDriverActorSystem' on port 52740.
+17/11/08 09:45:30.952 main INFO SparkEnv: Registering MapOutputTracker
+17/11/08 09:45:30.968 main INFO SparkEnv: Registering BlockManagerMaster
+17/11/08 09:45:30.968 main INFO DiskBlockManager: Created local directory at C:\Users\Viachaslau_Marozau\AppData\Local\Temp\blockmgr-a2c9b691-0b94-499a-969c-965c32279949
+17/11/08 09:45:30.999 main INFO MemoryStore: MemoryStore started with capacity 2.4 GB
+17/11/08 09:45:31.046 main INFO SparkEnv: Registering OutputCommitCoordinator
+17/11/08 09:45:31.218 main INFO Server: jetty-8.y.z-SNAPSHOT
+17/11/08 09:45:31.265 main INFO AbstractConnector: Started SelectChannelConnector@0.0.0.0:4040
+17/11/08 09:45:31.265 main INFO Utils: Successfully started service 'SparkUI' on port 4040.
+17/11/08 09:45:31.265 main INFO SparkUI: Started SparkUI at http://192.168.56.1:4040
+17/11/08 09:45:31.343 main INFO Executor: Starting executor ID driver on host localhost
+17/11/08 09:45:31.390 main INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52751.
+17/11/08 09:45:31.390 main INFO NettyBlockTransferService: Server created on 52751
+17/11/08 09:45:31.390 main INFO BlockManagerMaster: Trying to register BlockManager
+17/11/08 09:45:31.390 dispatcher-event-loop-2 INFO BlockManagerMasterEndpoint: Registering block manager localhost:52751 with 2.4 GB RAM, BlockManagerId(driver, localhost, 52751)
+17/11/08 09:45:31.390 main INFO BlockManagerMaster: Registered BlockManager
+17/11/08 09:45:32.452 main INFO HiveContext: Initializing execution hive, version 1.2.1
+17/11/08 09:45:32.515 main INFO ClientWrapper: Inspected Hadoop version: 2.6.0
+17/11/08 09:45:32.515 main INFO ClientWrapper: Loaded org.apache.hadoop.hive.shims.Hadoop23Shims for Hadoop version 2.6.0
+17/11/08 09:45:32.874 main INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+17/11/08 09:45:32.906 main INFO ObjectStore: ObjectStore, initialize called
+17/11/08 09:45:33.046 main INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+17/11/08 09:45:33.046 main INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+17/11/08 09:45:35.140 main INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+17/11/08 09:45:35.984 main INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/11/08 09:45:36.000 main INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/11/08 09:45:37.078 main INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/11/08 09:45:37.078 main INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/11/08 09:45:37.343 main INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+17/11/08 09:45:37.343 main INFO ObjectStore: Initialized ObjectStore
+17/11/08 09:45:37.484 main WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+17/11/08 09:45:37.625 main WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+17/11/08 09:45:37.797 main INFO HiveMetaStore: Added admin role in metastore
+17/11/08 09:45:37.797 main INFO HiveMetaStore: Added public role in metastore
+17/11/08 09:45:37.875 main INFO HiveMetaStore: No user is added in admin role, since config is empty
+17/11/08 09:45:37.969 main INFO HiveMetaStore: 0: get_all_databases
+17/11/08 09:45:37.969 main INFO audit: ugi=Viachaslau_Marozau	ip=unknown-ip-addr	cmd=get_all_databases	
+17/11/08 09:45:37.984 main INFO HiveMetaStore: 0: get_functions: db=default pat=*
+17/11/08 09:45:37.984 main INFO audit: ugi=Viachaslau_Marozau	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+17/11/08 09:45:37.984 main INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+17/11/08 09:45:38.281 main INFO SessionState: Created local directory: C:/Users/VIACHA~1/AppData/Local/Temp/678525d8-409a-4d35-826a-4f9cdccb21bf_resources
+17/11/08 09:45:38.328 main INFO SessionState: Created HDFS directory: /tmp/hive/Viachaslau_Marozau/678525d8-409a-4d35-826a-4f9cdccb21bf
+17/11/08 09:45:38.375 main INFO SessionState: Created local directory: C:/Users/VIACHA~1/AppData/Local/Temp/Viachaslau_Marozau/678525d8-409a-4d35-826a-4f9cdccb21bf
+17/11/08 09:45:38.422 main INFO SessionState: Created HDFS directory: /tmp/hive/Viachaslau_Marozau/678525d8-409a-4d35-826a-4f9cdccb21bf/_tmp_space.db
+17/11/08 09:45:38.500 main INFO HiveContext: default warehouse location is /user/hive/warehouse
+17/11/08 09:45:38.515 main INFO HiveContext: Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+17/11/08 09:45:38.531 main INFO ClientWrapper: Inspected Hadoop version: 2.6.0
+17/11/08 09:45:38.562 main INFO ClientWrapper: Loaded org.apache.hadoop.hive.shims.Hadoop23Shims for Hadoop version 2.6.0
+17/11/08 09:45:39.047 main INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+17/11/08 09:45:39.062 main INFO ObjectStore: ObjectStore, initialize called
+17/11/08 09:45:39.187 main INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+17/11/08 09:45:39.187 main INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+17/11/08 09:45:40.031 main INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+17/11/08 09:45:40.969 main INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/11/08 09:45:40.969 main INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/11/08 09:45:41.141 main INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+17/11/08 09:45:41.141 main INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+17/11/08 09:45:41.219 main INFO Query: Reading in results for query "org.datanucleus.store.rdbms.query.SQLQuery@0" since the connection used is closing
+17/11/08 09:45:41.219 main INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+17/11/08 09:45:41.234 main INFO ObjectStore: Initialized ObjectStore
+17/11/08 09:45:41.422 main INFO HiveMetaStore: Added admin role in metastore
+17/11/08 09:45:41.422 main INFO HiveMetaStore: Added public role in metastore
+17/11/08 09:45:41.469 main INFO HiveMetaStore: No user is added in admin role, since config is empty
+17/11/08 09:45:41.563 main INFO HiveMetaStore: 0: get_all_databases
+17/11/08 09:45:41.563 main INFO audit: ugi=Viachaslau_Marozau	ip=unknown-ip-addr	cmd=get_all_databases	
+17/11/08 09:45:41.578 main INFO HiveMetaStore: 0: get_functions: db=default pat=*
+17/11/08 09:45:41.578 main INFO audit: ugi=Viachaslau_Marozau	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+17/11/08 09:45:41.578 main INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+17/11/08 09:45:41.719 main INFO SessionState: Created local directory: C:/Users/VIACHA~1/AppData/Local/Temp/8409c9d3-670e-4bd6-aada-f4a5524e94b9_resources
+17/11/08 09:45:41.766 main INFO SessionState: Created HDFS directory: /tmp/hive/Viachaslau_Marozau/8409c9d3-670e-4bd6-aada-f4a5524e94b9
+17/11/08 09:45:41.813 main INFO SessionState: Created local directory: C:/Users/VIACHA~1/AppData/Local/Temp/Viachaslau_Marozau/8409c9d3-670e-4bd6-aada-f4a5524e94b9
+17/11/08 09:45:41.860 main INFO SessionState: Created HDFS directory: /tmp/hive/Viachaslau_Marozau/8409c9d3-670e-4bd6-aada-f4a5524e94b9/_tmp_space.db
+17/11/08 09:45:41.938 main INFO ParquetRelation: Listing file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/bids.gz.parquet on driver
+17/11/08 09:45:42.281 main INFO SparkContext: Starting job: load at Runner.scala:92
+17/11/08 09:45:42.297 dag-scheduler-event-loop INFO DAGScheduler: Got job 0 (load at Runner.scala:92) with 2 output partitions
+17/11/08 09:45:42.297 dag-scheduler-event-loop INFO DAGScheduler: Final stage: ResultStage 0 (load at Runner.scala:92)
+17/11/08 09:45:42.297 dag-scheduler-event-loop INFO DAGScheduler: Parents of final stage: List()
+17/11/08 09:45:42.297 dag-scheduler-event-loop INFO DAGScheduler: Missing parents: List()
+17/11/08 09:45:42.297 dag-scheduler-event-loop INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[1] at load at Runner.scala:92), which has no missing parents
+17/11/08 09:45:42.500 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 61.5 KB, free 61.5 KB)
+17/11/08 09:45:42.516 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 20.6 KB, free 82.1 KB)
+17/11/08 09:45:42.516 dispatcher-event-loop-2 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:52751 (size: 20.6 KB, free: 2.4 GB)
+17/11/08 09:45:42.516 dag-scheduler-event-loop INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1006
+17/11/08 09:45:42.531 dag-scheduler-event-loop INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at load at Runner.scala:92)
+17/11/08 09:45:42.531 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 0.0 with 2 tasks
+17/11/08 09:45:42.563 dispatcher-event-loop-3 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, partition 0,PROCESS_LOCAL, 2076 bytes)
+17/11/08 09:45:42.563 dispatcher-event-loop-3 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, localhost, partition 1,PROCESS_LOCAL, 2237 bytes)
+17/11/08 09:45:42.563 Executor task launch worker-0 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+17/11/08 09:45:42.563 Executor task launch worker-1 INFO Executor: Running task 1.0 in stage 0.0 (TID 1)
+17/11/08 09:45:42.625 Executor task launch worker-0 INFO ParquetFileReader: Initiating action with parallelism: 5
+17/11/08 09:45:42.625 Executor task launch worker-1 INFO ParquetFileReader: Initiating action with parallelism: 5
+17/11/08 09:45:42.657 Executor task launch worker-0 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 936 bytes result sent to driver
+17/11/08 09:45:42.657 task-result-getter-0 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 110 ms on localhost (1/2)
+17/11/08 09:45:42.922 Executor task launch worker-1 INFO Executor: Finished task 1.0 in stage 0.0 (TID 1). 2106 bytes result sent to driver
+17/11/08 09:45:42.922 dag-scheduler-event-loop INFO DAGScheduler: ResultStage 0 (load at Runner.scala:92) finished in 0.391 s
+17/11/08 09:45:42.922 task-result-getter-1 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 359 ms on localhost (2/2)
+17/11/08 09:45:42.922 task-result-getter-1 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+17/11/08 09:45:42.938 main INFO DAGScheduler: Job 0 finished: load at Runner.scala:92, took 0.654657 s
+17/11/08 09:45:43.592 main INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 61.8 KB, free 143.9 KB)
+17/11/08 09:45:43.633 main INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 19.3 KB, free 163.3 KB)
+17/11/08 09:45:43.634 dispatcher-event-loop-0 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on localhost:52751 (size: 19.3 KB, free: 2.4 GB)
+17/11/08 09:45:43.635 main INFO SparkContext: Created broadcast 1 from rdd at package.scala:174
+17/11/08 09:45:43.918 main INFO deprecation: mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+17/11/08 09:45:43.922 main INFO ParquetRelation: Reading Parquet file(s) from file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/bids.gz.parquet
+17/11/08 09:45:44.038 main INFO deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+17/11/08 09:45:44.039 main INFO deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+17/11/08 09:45:44.039 main INFO deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+17/11/08 09:45:44.039 main INFO deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+17/11/08 09:45:44.039 main INFO deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+17/11/08 09:45:44.127 main INFO SparkContext: Starting job: saveAsTextFile at package.scala:209
+17/11/08 09:45:44.131 dag-scheduler-event-loop INFO DAGScheduler: Registering RDD 5 (rdd at package.scala:174)
+17/11/08 09:45:44.132 dag-scheduler-event-loop INFO DAGScheduler: Got job 1 (saveAsTextFile at package.scala:209) with 1 output partitions
+17/11/08 09:45:44.132 dag-scheduler-event-loop INFO DAGScheduler: Final stage: ResultStage 2 (saveAsTextFile at package.scala:209)
+17/11/08 09:45:44.132 dag-scheduler-event-loop INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 1)
+17/11/08 09:45:44.133 dag-scheduler-event-loop INFO DAGScheduler: Missing parents: List(ShuffleMapStage 1)
+17/11/08 09:45:44.134 dag-scheduler-event-loop INFO DAGScheduler: Submitting ShuffleMapStage 1 (MapPartitionsRDD[5] at rdd at package.scala:174), which has no missing parents
+17/11/08 09:45:44.150 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 12.0 KB, free 175.3 KB)
+17/11/08 09:45:44.152 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 6.0 KB, free 181.3 KB)
+17/11/08 09:45:44.156 dispatcher-event-loop-1 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on localhost:52751 (size: 6.0 KB, free: 2.4 GB)
+17/11/08 09:45:44.156 dag-scheduler-event-loop INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1006
+17/11/08 09:45:44.158 dag-scheduler-event-loop INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[5] at rdd at package.scala:174)
+17/11/08 09:45:44.159 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks
+17/11/08 09:45:44.161 dispatcher-event-loop-2 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 2, localhost, partition 0,PROCESS_LOCAL, 2221 bytes)
+17/11/08 09:45:44.162 Executor task launch worker-1 INFO Executor: Running task 0.0 in stage 1.0 (TID 2)
+17/11/08 09:45:44.176 Executor task launch worker-1 INFO ParquetRelation$$anonfun$buildInternalScan$1$$anon$1: Input split: ParquetInputSplit{part: file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/bids.gz.parquet start: 0 end: 92730 length: 92730 hosts: []}
+17/11/08 09:45:44.425 Executor task launch worker-1 INFO GeneratePredicate: Code generated in 160.917824 ms
+17/11/08 09:45:44.457 Executor task launch worker-1 INFO CodecPool: Got brand-new decompressor [.gz]
+17/11/08 09:45:44.575 Executor task launch worker-1 INFO GenerateMutableProjection: Code generated in 12.687974 ms
+17/11/08 09:45:44.596 Executor task launch worker-1 INFO GenerateUnsafeProjection: Code generated in 10.338851 ms
+17/11/08 09:45:44.615 Executor task launch worker-1 INFO GenerateMutableProjection: Code generated in 8.147265 ms
+17/11/08 09:45:44.628 Executor task launch worker-1 INFO GenerateUnsafeRowJoiner: Code generated in 6.514037 ms
+17/11/08 09:45:44.637 Executor task launch worker-1 INFO GenerateUnsafeProjection: Code generated in 6.866857 ms
+17/11/08 09:45:44.690 Executor task launch worker-1 INFO GenerateMutableProjection: Code generated in 7.927778 ms
+17/11/08 09:45:45.717 Executor task launch worker-1 INFO Executor: Finished task 0.0 in stage 1.0 (TID 2). 2788 bytes result sent to driver
+17/11/08 09:45:45.733 task-result-getter-2 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 2) in 1574 ms on localhost (1/1)
+17/11/08 09:45:45.733 task-result-getter-2 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+17/11/08 09:45:45.733 dag-scheduler-event-loop INFO DAGScheduler: ShuffleMapStage 1 (rdd at package.scala:174) finished in 1.574 s
+17/11/08 09:45:45.733 dag-scheduler-event-loop INFO DAGScheduler: looking for newly runnable stages
+17/11/08 09:45:45.733 dag-scheduler-event-loop INFO DAGScheduler: running: Set()
+17/11/08 09:45:45.733 dag-scheduler-event-loop INFO DAGScheduler: waiting: Set(ResultStage 2)
+17/11/08 09:45:45.733 dag-scheduler-event-loop INFO DAGScheduler: failed: Set()
+17/11/08 09:45:45.733 dag-scheduler-event-loop INFO DAGScheduler: Submitting ResultStage 2 (MapPartitionsRDD[11] at saveAsTextFile at package.scala:209), which has no missing parents
+17/11/08 09:45:45.748 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 76.8 KB, free 258.0 KB)
+17/11/08 09:45:45.748 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 29.2 KB, free 287.2 KB)
+17/11/08 09:45:45.748 dispatcher-event-loop-1 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on localhost:52751 (size: 29.2 KB, free: 2.4 GB)
+17/11/08 09:45:45.748 dag-scheduler-event-loop INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1006
+17/11/08 09:45:45.748 dag-scheduler-event-loop INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[11] at saveAsTextFile at package.scala:209)
+17/11/08 09:45:45.748 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 2.0 with 1 tasks
+17/11/08 09:45:45.766 dispatcher-event-loop-2 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 3, localhost, partition 0,NODE_LOCAL, 7442 bytes)
+17/11/08 09:45:45.767 Executor task launch worker-1 INFO Executor: Running task 0.0 in stage 2.0 (TID 3)
+17/11/08 09:45:45.833 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.833 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.866 Executor task launch worker-1 INFO GenerateMutableProjection: Code generated in 5.317733 ms
+17/11/08 09:45:45.902 Executor task launch worker-1 INFO GenerateMutableProjection: Code generated in 6.419268 ms
+17/11/08 09:45:45.902 Executor task launch worker-1 INFO GenerateUnsafeProjection: Code generated in 7.697215 ms
+17/11/08 09:45:45.918 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.918 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.918 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.918 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.918 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.918 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.918 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.918 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.933 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.933 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.933 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.933 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.949 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.949 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.949 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.949 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.949 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.949 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.949 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.949 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.949 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.949 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.949 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.949 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.966 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.966 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.971 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.971 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.971 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.971 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.971 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.971 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.971 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.971 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.971 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.971 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.971 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.971 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.987 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.987 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.987 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.987 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.987 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.987 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.987 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.987 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:45.987 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:45.987 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.002 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.018 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.018 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.018 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.018 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.018 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.018 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.018 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.018 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.018 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.034 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 16 ms
+17/11/08 09:45:46.034 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.034 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.034 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.034 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.034 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.034 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.034 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.034 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.049 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.049 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.049 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.049 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.049 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.049 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.049 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.049 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.049 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.049 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.049 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.049 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.068 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.068 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.069 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.069 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.069 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.070 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.071 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.087 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.087 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.087 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.087 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.087 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.087 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.087 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.087 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.087 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.087 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.087 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.087 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.103 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.103 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.103 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.103 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.103 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.103 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.103 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.103 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.118 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.134 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.134 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.134 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.134 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.134 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.134 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.134 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.134 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.134 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.134 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.134 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.134 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.134 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.134 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.150 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.165 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.165 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.166 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.166 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.169 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.169 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.169 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.170 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+17/11/08 09:45:46.170 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.170 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.172 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.187 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.187 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.187 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.187 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.187 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.187 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.187 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.187 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.187 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.187 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.187 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.187 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.187 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.187 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.203 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.219 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.234 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.234 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.234 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.234 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.234 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.234 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.234 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.234 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.234 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.234 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.234 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.234 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.234 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.234 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.250 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.266 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.267 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+17/11/08 09:45:46.269 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.269 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.271 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.272 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+17/11/08 09:45:46.272 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.272 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.272 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.272 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.319 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.319 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.319 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.319 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.319 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.319 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.335 dispatcher-event-loop-2 INFO BlockManagerInfo: Removed broadcast_2_piece0 on localhost:52751 in memory (size: 6.0 KB, free: 2.4 GB)
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.335 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.350 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.369 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.369 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.370 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.370 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.371 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.371 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.372 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.372 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.372 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.372 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.372 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.372 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.372 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.372 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.372 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.372 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.372 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.372 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.372 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.372 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.388 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.388 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.388 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+17/11/08 09:45:46.388 Executor task launch worker-1 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:46.388 Executor task launch worker-1 INFO FileOutputCommitter: Saved output of task 'attempt_201711080945_0002_m_000000_3' to file:/D:/projects/BDT/big_data_training/spark_hw2/output_data/viachaslau_marozau/erroneous/_temporary/0/task_201711080945_0002_m_000000
+17/11/08 09:45:46.388 Executor task launch worker-1 INFO SparkHadoopMapRedUtil: attempt_201711080945_0002_m_000000_3: Committed
+17/11/08 09:45:46.388 Executor task launch worker-1 INFO Executor: Finished task 0.0 in stage 2.0 (TID 3). 2585 bytes result sent to driver
+17/11/08 09:45:46.388 task-result-getter-3 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 3) in 640 ms on localhost (1/1)
+17/11/08 09:45:46.388 task-result-getter-3 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+17/11/08 09:45:46.388 dag-scheduler-event-loop INFO DAGScheduler: ResultStage 2 (saveAsTextFile at package.scala:209) finished in 0.640 s
+17/11/08 09:45:46.388 main INFO DAGScheduler: Job 1 finished: saveAsTextFile at package.scala:209, took 2.274480 s
+17/11/08 09:45:46.535 main INFO ParquetRelation: Listing file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/motels.gz.parquet on driver
+17/11/08 09:45:46.573 main INFO SparkContext: Starting job: load at Runner.scala:125
+17/11/08 09:45:46.573 dag-scheduler-event-loop INFO DAGScheduler: Got job 2 (load at Runner.scala:125) with 2 output partitions
+17/11/08 09:45:46.573 dag-scheduler-event-loop INFO DAGScheduler: Final stage: ResultStage 3 (load at Runner.scala:125)
+17/11/08 09:45:46.588 dag-scheduler-event-loop INFO DAGScheduler: Parents of final stage: List()
+17/11/08 09:45:46.588 dag-scheduler-event-loop INFO DAGScheduler: Missing parents: List()
+17/11/08 09:45:46.588 dag-scheduler-event-loop INFO DAGScheduler: Submitting ResultStage 3 (MapPartitionsRDD[13] at load at Runner.scala:125), which has no missing parents
+17/11/08 09:45:46.588 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 61.5 KB, free 330.8 KB)
+17/11/08 09:45:46.604 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 20.6 KB, free 351.4 KB)
+17/11/08 09:45:46.604 dispatcher-event-loop-1 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on localhost:52751 (size: 20.6 KB, free: 2.4 GB)
+17/11/08 09:45:46.604 dag-scheduler-event-loop INFO SparkContext: Created broadcast 4 from broadcast at DAGScheduler.scala:1006
+17/11/08 09:45:46.604 dag-scheduler-event-loop INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 3 (MapPartitionsRDD[13] at load at Runner.scala:125)
+17/11/08 09:45:46.604 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 3.0 with 2 tasks
+17/11/08 09:45:46.604 dispatcher-event-loop-2 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 4, localhost, partition 0,PROCESS_LOCAL, 2076 bytes)
+17/11/08 09:45:46.604 dispatcher-event-loop-2 INFO TaskSetManager: Starting task 1.0 in stage 3.0 (TID 5, localhost, partition 1,PROCESS_LOCAL, 2239 bytes)
+17/11/08 09:45:46.604 Executor task launch worker-1 INFO Executor: Running task 0.0 in stage 3.0 (TID 4)
+17/11/08 09:45:46.604 Executor task launch worker-0 INFO Executor: Running task 1.0 in stage 3.0 (TID 5)
+17/11/08 09:45:46.604 Executor task launch worker-0 INFO ParquetFileReader: Initiating action with parallelism: 5
+17/11/08 09:45:46.604 Executor task launch worker-1 INFO ParquetFileReader: Initiating action with parallelism: 5
+17/11/08 09:45:46.620 Executor task launch worker-1 INFO Executor: Finished task 0.0 in stage 3.0 (TID 4). 936 bytes result sent to driver
+17/11/08 09:45:46.620 task-result-getter-0 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 4) in 16 ms on localhost (1/2)
+17/11/08 09:45:46.620 Executor task launch worker-0 INFO Executor: Finished task 1.0 in stage 3.0 (TID 5). 1754 bytes result sent to driver
+17/11/08 09:45:46.620 task-result-getter-1 INFO TaskSetManager: Finished task 1.0 in stage 3.0 (TID 5) in 16 ms on localhost (2/2)
+17/11/08 09:45:46.620 task-result-getter-1 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+17/11/08 09:45:46.620 dag-scheduler-event-loop INFO DAGScheduler: ResultStage 3 (load at Runner.scala:125) finished in 0.016 s
+17/11/08 09:45:46.620 main INFO DAGScheduler: Job 2 finished: load at Runner.scala:125, took 0.038111 s
+17/11/08 09:45:47.290 main INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 208.5 KB, free 559.9 KB)
+17/11/08 09:45:47.305 main INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 19.3 KB, free 579.2 KB)
+17/11/08 09:45:47.305 dispatcher-event-loop-3 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on localhost:52751 (size: 19.3 KB, free: 2.4 GB)
+17/11/08 09:45:47.305 main INFO SparkContext: Created broadcast 5 from rdd at package.scala:174
+17/11/08 09:45:47.321 main INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 208.5 KB, free 787.7 KB)
+17/11/08 09:45:47.337 main INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 19.3 KB, free 807.1 KB)
+17/11/08 09:45:47.337 dispatcher-event-loop-0 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on localhost:52751 (size: 19.3 KB, free: 2.4 GB)
+17/11/08 09:45:47.337 main INFO SparkContext: Created broadcast 6 from textFile at TextFile.scala:30
+17/11/08 09:45:47.390 main INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 208.5 KB, free 1015.6 KB)
+17/11/08 09:45:47.406 main INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 19.3 KB, free 1034.9 KB)
+17/11/08 09:45:47.406 dispatcher-event-loop-1 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on localhost:52751 (size: 19.3 KB, free: 2.4 GB)
+17/11/08 09:45:47.406 main INFO SparkContext: Created broadcast 7 from rdd at package.scala:174
+17/11/08 09:45:47.406 main INFO MemoryStore: Block broadcast_8 stored as values in memory (estimated size 208.5 KB, free 1243.4 KB)
+17/11/08 09:45:47.421 main INFO MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 19.3 KB, free 1262.7 KB)
+17/11/08 09:45:47.421 dispatcher-event-loop-2 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on localhost:52751 (size: 19.3 KB, free: 2.4 GB)
+17/11/08 09:45:47.421 main INFO SparkContext: Created broadcast 8 from textFile at TextFile.scala:30
+17/11/08 09:45:47.437 main INFO MemoryStore: Block broadcast_9 stored as values in memory (estimated size 208.5 KB, free 1471.2 KB)
+17/11/08 09:45:47.452 main INFO MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 19.3 KB, free 1490.5 KB)
+17/11/08 09:45:47.452 dispatcher-event-loop-3 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on localhost:52751 (size: 19.3 KB, free: 2.4 GB)
+17/11/08 09:45:47.452 main INFO SparkContext: Created broadcast 9 from rdd at package.scala:174
+17/11/08 09:45:47.468 main INFO MemoryStore: Block broadcast_10 stored as values in memory (estimated size 208.5 KB, free 1699.1 KB)
+17/11/08 09:45:47.475 main INFO MemoryStore: Block broadcast_10_piece0 stored as bytes in memory (estimated size 19.3 KB, free 1718.4 KB)
+17/11/08 09:45:47.475 dispatcher-event-loop-0 INFO BlockManagerInfo: Added broadcast_10_piece0 in memory on localhost:52751 (size: 19.3 KB, free: 2.4 GB)
+17/11/08 09:45:47.475 main INFO SparkContext: Created broadcast 10 from textFile at TextFile.scala:30
+17/11/08 09:45:47.490 main INFO MemoryStore: Block broadcast_11 stored as values in memory (estimated size 208.5 KB, free 1926.9 KB)
+17/11/08 09:45:47.506 main INFO MemoryStore: Block broadcast_11_piece0 stored as bytes in memory (estimated size 19.3 KB, free 1946.2 KB)
+17/11/08 09:45:47.506 dispatcher-event-loop-1 INFO BlockManagerInfo: Added broadcast_11_piece0 in memory on localhost:52751 (size: 19.3 KB, free: 2.4 GB)
+17/11/08 09:45:47.506 main INFO SparkContext: Created broadcast 11 from rdd at package.scala:174
+17/11/08 09:45:47.591 broadcast-hash-join-0 INFO ParquetRelation: Reading Parquet file(s) from file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/motels.gz.parquet
+17/11/08 09:45:47.606 broadcast-hash-join-0 INFO SparkContext: Starting job: run at ThreadPoolExecutor.java:1142
+17/11/08 09:45:47.606 dag-scheduler-event-loop INFO DAGScheduler: Got job 3 (run at ThreadPoolExecutor.java:1142) with 1 output partitions
+17/11/08 09:45:47.606 dag-scheduler-event-loop INFO DAGScheduler: Final stage: ResultStage 4 (run at ThreadPoolExecutor.java:1142)
+17/11/08 09:45:47.606 dag-scheduler-event-loop INFO DAGScheduler: Parents of final stage: List()
+17/11/08 09:45:47.606 dag-scheduler-event-loop INFO DAGScheduler: Missing parents: List()
+17/11/08 09:45:47.606 dag-scheduler-event-loop INFO DAGScheduler: Submitting ResultStage 4 (MapPartitionsRDD[39] at run at ThreadPoolExecutor.java:1142), which has no missing parents
+17/11/08 09:45:47.606 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_12 stored as values in memory (estimated size 5.7 KB, free 1951.9 KB)
+17/11/08 09:45:47.606 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_12_piece0 stored as bytes in memory (estimated size 2.9 KB, free 1954.8 KB)
+17/11/08 09:45:47.606 dispatcher-event-loop-2 INFO BlockManagerInfo: Added broadcast_12_piece0 in memory on localhost:52751 (size: 2.9 KB, free: 2.4 GB)
+17/11/08 09:45:47.622 dag-scheduler-event-loop INFO SparkContext: Created broadcast 12 from broadcast at DAGScheduler.scala:1006
+17/11/08 09:45:47.622 dag-scheduler-event-loop INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 4 (MapPartitionsRDD[39] at run at ThreadPoolExecutor.java:1142)
+17/11/08 09:45:47.622 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 4.0 with 1 tasks
+17/11/08 09:45:47.622 dispatcher-event-loop-3 INFO TaskSetManager: Starting task 0.0 in stage 4.0 (TID 6, localhost, partition 0,PROCESS_LOCAL, 2234 bytes)
+17/11/08 09:45:47.622 Executor task launch worker-0 INFO Executor: Running task 0.0 in stage 4.0 (TID 6)
+17/11/08 09:45:47.622 Executor task launch worker-0 INFO ParquetRelation$$anonfun$buildInternalScan$1$$anon$1: Input split: ParquetInputSplit{part: file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/motels.gz.parquet start: 0 end: 2125 length: 2125 hosts: []}
+17/11/08 09:45:47.637 broadcast-hash-join-1 INFO ParquetRelation: Reading Parquet file(s) from file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/bids.gz.parquet
+17/11/08 09:45:47.637 Executor task launch worker-0 INFO CodecPool: Got brand-new decompressor [.gz]
+17/11/08 09:45:47.637 Executor task launch worker-0 INFO Executor: Finished task 0.0 in stage 4.0 (TID 6). 3156 bytes result sent to driver
+17/11/08 09:45:47.637 broadcast-hash-join-2 INFO ParquetRelation: Reading Parquet file(s) from file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/bids.gz.parquet
+17/11/08 09:45:47.653 broadcast-hash-join-3 INFO ParquetRelation: Reading Parquet file(s) from file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/bids.gz.parquet
+17/11/08 09:45:47.653 task-result-getter-2 INFO TaskSetManager: Finished task 0.0 in stage 4.0 (TID 6) in 31 ms on localhost (1/1)
+17/11/08 09:45:47.653 task-result-getter-2 INFO TaskSchedulerImpl: Removed TaskSet 4.0, whose tasks have all completed, from pool 
+17/11/08 09:45:47.653 dag-scheduler-event-loop INFO DAGScheduler: ResultStage 4 (run at ThreadPoolExecutor.java:1142) finished in 0.031 s
+17/11/08 09:45:47.653 broadcast-hash-join-0 INFO DAGScheduler: Job 3 finished: run at ThreadPoolExecutor.java:1142, took 0.041436 s
+17/11/08 09:45:47.674 broadcast-hash-join-0 INFO GenerateUnsafeProjection: Code generated in 10.590337 ms
+17/11/08 09:45:47.675 broadcast-hash-join-1 INFO SparkContext: Starting job: run at ThreadPoolExecutor.java:1142
+17/11/08 09:45:47.675 broadcast-hash-join-0 INFO MemoryStore: Block broadcast_13 stored as values in memory (estimated size 2.8 KB, free 1957.6 KB)
+17/11/08 09:45:47.675 broadcast-hash-join-0 INFO MemoryStore: Block broadcast_13_piece0 stored as bytes in memory (estimated size 587.0 B, free 1958.2 KB)
+17/11/08 09:45:47.691 broadcast-hash-join-3 INFO SparkContext: Starting job: run at ThreadPoolExecutor.java:1142
+17/11/08 09:45:47.691 broadcast-hash-join-2 INFO SparkContext: Starting job: run at ThreadPoolExecutor.java:1142
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO DAGScheduler: Got job 4 (run at ThreadPoolExecutor.java:1142) with 1 output partitions
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO DAGScheduler: Final stage: ResultStage 5 (run at ThreadPoolExecutor.java:1142)
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO DAGScheduler: Parents of final stage: List()
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO DAGScheduler: Missing parents: List()
+17/11/08 09:45:47.691 dispatcher-event-loop-2 INFO BlockManagerInfo: Added broadcast_13_piece0 in memory on localhost:52751 (size: 587.0 B, free: 2.4 GB)
+17/11/08 09:45:47.691 broadcast-hash-join-0 INFO SparkContext: Created broadcast 13 from run at ThreadPoolExecutor.java:1142
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO DAGScheduler: Submitting ResultStage 5 (MapPartitionsRDD[41] at run at ThreadPoolExecutor.java:1142), which has no missing parents
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_14 stored as values in memory (estimated size 10.0 KB, free 1968.2 KB)
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_14_piece0 stored as bytes in memory (estimated size 4.9 KB, free 1973.0 KB)
+17/11/08 09:45:47.691 dispatcher-event-loop-3 INFO BlockManagerInfo: Added broadcast_14_piece0 in memory on localhost:52751 (size: 4.9 KB, free: 2.4 GB)
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO SparkContext: Created broadcast 14 from broadcast at DAGScheduler.scala:1006
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 5 (MapPartitionsRDD[41] at run at ThreadPoolExecutor.java:1142)
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 5.0 with 1 tasks
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO DAGScheduler: Got job 5 (run at ThreadPoolExecutor.java:1142) with 1 output partitions
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO DAGScheduler: Final stage: ResultStage 6 (run at ThreadPoolExecutor.java:1142)
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO DAGScheduler: Parents of final stage: List()
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO DAGScheduler: Missing parents: List()
+17/11/08 09:45:47.691 dispatcher-event-loop-0 INFO TaskSetManager: Starting task 0.0 in stage 5.0 (TID 7, localhost, partition 0,PROCESS_LOCAL, 2232 bytes)
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO DAGScheduler: Submitting ResultStage 6 (MapPartitionsRDD[40] at run at ThreadPoolExecutor.java:1142), which has no missing parents
+17/11/08 09:45:47.691 Executor task launch worker-0 INFO Executor: Running task 0.0 in stage 5.0 (TID 7)
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_15 stored as values in memory (estimated size 10.0 KB, free 1983.0 KB)
+17/11/08 09:45:47.691 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_15_piece0 stored as bytes in memory (estimated size 4.9 KB, free 1987.9 KB)
+17/11/08 09:45:47.691 Executor task launch worker-0 INFO ParquetRelation$$anonfun$buildInternalScan$1$$anon$1: Input split: ParquetInputSplit{part: file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/bids.gz.parquet start: 0 end: 92730 length: 92730 hosts: []}
+17/11/08 09:45:47.691 dispatcher-event-loop-1 INFO BlockManagerInfo: Added broadcast_15_piece0 in memory on localhost:52751 (size: 4.9 KB, free: 2.4 GB)
+17/11/08 09:45:47.706 dag-scheduler-event-loop INFO SparkContext: Created broadcast 15 from broadcast at DAGScheduler.scala:1006
+17/11/08 09:45:47.706 dag-scheduler-event-loop INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 6 (MapPartitionsRDD[40] at run at ThreadPoolExecutor.java:1142)
+17/11/08 09:45:47.706 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 6.0 with 1 tasks
+17/11/08 09:45:47.706 dag-scheduler-event-loop INFO DAGScheduler: Got job 6 (run at ThreadPoolExecutor.java:1142) with 1 output partitions
+17/11/08 09:45:47.706 dag-scheduler-event-loop INFO DAGScheduler: Final stage: ResultStage 7 (run at ThreadPoolExecutor.java:1142)
+17/11/08 09:45:47.706 dag-scheduler-event-loop INFO DAGScheduler: Parents of final stage: List()
+17/11/08 09:45:47.706 dag-scheduler-event-loop INFO DAGScheduler: Missing parents: List()
+17/11/08 09:45:47.706 dag-scheduler-event-loop INFO DAGScheduler: Submitting ResultStage 7 (MapPartitionsRDD[42] at run at ThreadPoolExecutor.java:1142), which has no missing parents
+17/11/08 09:45:47.706 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_16 stored as values in memory (estimated size 10.0 KB, free 1997.9 KB)
+17/11/08 09:45:47.738 dispatcher-event-loop-3 INFO TaskSetManager: Starting task 0.0 in stage 6.0 (TID 8, localhost, partition 0,PROCESS_LOCAL, 2232 bytes)
+17/11/08 09:45:47.738 Executor task launch worker-1 INFO Executor: Running task 0.0 in stage 6.0 (TID 8)
+17/11/08 09:45:47.738 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 13
+17/11/08 09:45:47.738 Executor task launch worker-1 INFO ParquetRelation$$anonfun$buildInternalScan$1$$anon$1: Input split: ParquetInputSplit{part: file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/bids.gz.parquet start: 0 end: 92730 length: 92730 hosts: []}
+17/11/08 09:45:47.753 Executor task launch worker-0 INFO GeneratePredicate: Code generated in 5.913013 ms
+17/11/08 09:45:47.753 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_16_piece0 stored as bytes in memory (estimated size 4.9 KB, free 2002.7 KB)
+17/11/08 09:45:47.753 dispatcher-event-loop-1 INFO BlockManagerInfo: Added broadcast_16_piece0 in memory on localhost:52751 (size: 4.9 KB, free: 2.4 GB)
+17/11/08 09:45:47.753 dag-scheduler-event-loop INFO SparkContext: Created broadcast 16 from broadcast at DAGScheduler.scala:1006
+17/11/08 09:45:47.753 dag-scheduler-event-loop INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 7 (MapPartitionsRDD[42] at run at ThreadPoolExecutor.java:1142)
+17/11/08 09:45:47.753 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 7.0 with 1 tasks
+17/11/08 09:45:47.753 Spark Context Cleaner INFO ContextCleaner: Cleaned shuffle 0
+17/11/08 09:45:47.753 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 12
+17/11/08 09:45:47.753 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 11
+17/11/08 09:45:47.753 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 10
+17/11/08 09:45:47.753 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 9
+17/11/08 09:45:47.753 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 8
+17/11/08 09:45:47.753 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 7
+17/11/08 09:45:47.753 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 6
+17/11/08 09:45:47.753 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 5
+17/11/08 09:45:47.753 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 4
+17/11/08 09:45:47.753 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 3
+17/11/08 09:45:47.774 dispatcher-event-loop-0 INFO BlockManagerInfo: Removed broadcast_1_piece0 on localhost:52751 in memory (size: 19.3 KB, free: 2.4 GB)
+17/11/08 09:45:47.775 dispatcher-event-loop-3 INFO BlockManagerInfo: Removed broadcast_12_piece0 on localhost:52751 in memory (size: 2.9 KB, free: 2.4 GB)
+17/11/08 09:45:47.775 Executor task launch worker-1 INFO GenerateUnsafeProjection: Code generated in 11.474438 ms
+17/11/08 09:45:47.775 Executor task launch worker-1 INFO CodecPool: Got brand-new decompressor [.gz]
+17/11/08 09:45:47.775 Executor task launch worker-0 INFO CodecPool: Got brand-new decompressor [.gz]
+17/11/08 09:45:47.775 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 43
+17/11/08 09:45:47.791 dispatcher-event-loop-2 INFO BlockManagerInfo: Removed broadcast_4_piece0 on localhost:52751 in memory (size: 20.6 KB, free: 2.4 GB)
+17/11/08 09:45:47.791 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 15
+17/11/08 09:45:47.791 dispatcher-event-loop-1 INFO BlockManagerInfo: Removed broadcast_3_piece0 on localhost:52751 in memory (size: 29.2 KB, free: 2.4 GB)
+17/11/08 09:45:47.791 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 14
+17/11/08 09:45:47.807 Executor task launch worker-0 INFO Executor: Finished task 0.0 in stage 5.0 (TID 7). 308225 bytes result sent to driver
+17/11/08 09:45:47.807 dispatcher-event-loop-2 INFO TaskSetManager: Starting task 0.0 in stage 7.0 (TID 9, localhost, partition 0,PROCESS_LOCAL, 2232 bytes)
+17/11/08 09:45:47.807 Executor task launch worker-0 INFO Executor: Running task 0.0 in stage 7.0 (TID 9)
+17/11/08 09:45:47.807 Executor task launch worker-0 INFO ParquetRelation$$anonfun$buildInternalScan$1$$anon$1: Input split: ParquetInputSplit{part: file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/bids.gz.parquet start: 0 end: 92730 length: 92730 hosts: []}
+17/11/08 09:45:47.807 task-result-getter-3 INFO TaskSetManager: Finished task 0.0 in stage 5.0 (TID 7) in 116 ms on localhost (1/1)
+17/11/08 09:45:47.807 task-result-getter-3 INFO TaskSchedulerImpl: Removed TaskSet 5.0, whose tasks have all completed, from pool 
+17/11/08 09:45:47.807 dag-scheduler-event-loop INFO DAGScheduler: ResultStage 5 (run at ThreadPoolExecutor.java:1142) finished in 0.116 s
+17/11/08 09:45:47.807 broadcast-hash-join-1 INFO DAGScheduler: Job 4 finished: run at ThreadPoolExecutor.java:1142, took 0.133216 s
+17/11/08 09:45:47.822 broadcast-hash-join-1 INFO GenerateUnsafeProjection: Code generated in 7.418652 ms
+17/11/08 09:45:47.822 broadcast-hash-join-1 INFO MemoryStore: Block broadcast_17 stored as values in memory (estimated size 995.3 KB, free 2.7 MB)
+17/11/08 09:45:47.838 Executor task launch worker-1 INFO Executor: Finished task 0.0 in stage 6.0 (TID 8). 308468 bytes result sent to driver
+17/11/08 09:45:47.838 broadcast-hash-join-1 INFO MemoryStore: Block broadcast_17_piece0 stored as bytes in memory (estimated size 73.5 KB, free 2.7 MB)
+17/11/08 09:45:47.838 dispatcher-event-loop-1 INFO BlockManagerInfo: Added broadcast_17_piece0 in memory on localhost:52751 (size: 73.5 KB, free: 2.4 GB)
+17/11/08 09:45:47.838 broadcast-hash-join-1 INFO SparkContext: Created broadcast 17 from run at ThreadPoolExecutor.java:1142
+17/11/08 09:45:47.838 task-result-getter-0 INFO TaskSetManager: Finished task 0.0 in stage 6.0 (TID 8) in 100 ms on localhost (1/1)
+17/11/08 09:45:47.838 task-result-getter-0 INFO TaskSchedulerImpl: Removed TaskSet 6.0, whose tasks have all completed, from pool 
+17/11/08 09:45:47.838 dag-scheduler-event-loop INFO DAGScheduler: ResultStage 6 (run at ThreadPoolExecutor.java:1142) finished in 0.132 s
+17/11/08 09:45:47.838 broadcast-hash-join-3 INFO DAGScheduler: Job 5 finished: run at ThreadPoolExecutor.java:1142, took 0.157306 s
+17/11/08 09:45:47.853 broadcast-hash-join-3 INFO MemoryStore: Block broadcast_18 stored as values in memory (estimated size 1034.2 KB, free 3.7 MB)
+17/11/08 09:45:47.870 broadcast-hash-join-3 INFO MemoryStore: Block broadcast_18_piece0 stored as bytes in memory (estimated size 73.6 KB, free 3.8 MB)
+17/11/08 09:45:47.870 dispatcher-event-loop-2 INFO BlockManagerInfo: Added broadcast_18_piece0 in memory on localhost:52751 (size: 73.6 KB, free: 2.4 GB)
+17/11/08 09:45:47.871 broadcast-hash-join-3 INFO SparkContext: Created broadcast 18 from run at ThreadPoolExecutor.java:1142
+17/11/08 09:45:47.877 Executor task launch worker-0 INFO CodecPool: Got brand-new decompressor [.gz]
+17/11/08 09:45:47.889 Executor task launch worker-0 INFO Executor: Finished task 0.0 in stage 7.0 (TID 9). 308875 bytes result sent to driver
+17/11/08 09:45:47.893 dag-scheduler-event-loop INFO DAGScheduler: ResultStage 7 (run at ThreadPoolExecutor.java:1142) finished in 0.140 s
+17/11/08 09:45:47.893 task-result-getter-1 INFO TaskSetManager: Finished task 0.0 in stage 7.0 (TID 9) in 86 ms on localhost (1/1)
+17/11/08 09:45:47.894 task-result-getter-1 INFO TaskSchedulerImpl: Removed TaskSet 7.0, whose tasks have all completed, from pool 
+17/11/08 09:45:47.894 broadcast-hash-join-2 INFO DAGScheduler: Job 6 finished: run at ThreadPoolExecutor.java:1142, took 0.199872 s
+17/11/08 09:45:47.901 broadcast-hash-join-2 INFO MemoryStore: Block broadcast_19 stored as values in memory (estimated size 1033.1 KB, free 4.8 MB)
+17/11/08 09:45:47.908 broadcast-hash-join-2 INFO MemoryStore: Block broadcast_19_piece0 stored as bytes in memory (estimated size 73.3 KB, free 4.9 MB)
+17/11/08 09:45:47.909 dispatcher-event-loop-0 INFO BlockManagerInfo: Added broadcast_19_piece0 in memory on localhost:52751 (size: 73.3 KB, free: 2.4 GB)
+17/11/08 09:45:47.909 broadcast-hash-join-2 INFO SparkContext: Created broadcast 19 from run at ThreadPoolExecutor.java:1142
+17/11/08 09:45:47.958 main INFO FileInputFormat: Total input paths to process : 1
+17/11/08 09:45:47.968 main INFO FileInputFormat: Total input paths to process : 1
+17/11/08 09:45:47.969 main INFO FileInputFormat: Total input paths to process : 1
+17/11/08 09:45:48.110 main INFO SparkContext: Starting job: saveAsTextFile at package.scala:209
+17/11/08 09:45:48.112 dag-scheduler-event-loop INFO DAGScheduler: Registering RDD 55 (rdd at package.scala:174)
+17/11/08 09:45:48.112 dag-scheduler-event-loop INFO DAGScheduler: Got job 7 (saveAsTextFile at package.scala:209) with 1 output partitions
+17/11/08 09:45:48.112 dag-scheduler-event-loop INFO DAGScheduler: Final stage: ResultStage 9 (saveAsTextFile at package.scala:209)
+17/11/08 09:45:48.112 dag-scheduler-event-loop INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 8)
+17/11/08 09:45:48.112 dag-scheduler-event-loop INFO DAGScheduler: Missing parents: List(ShuffleMapStage 8)
+17/11/08 09:45:48.113 dag-scheduler-event-loop INFO DAGScheduler: Submitting ShuffleMapStage 8 (MapPartitionsRDD[55] at rdd at package.scala:174), which has no missing parents
+17/11/08 09:45:48.120 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_20 stored as values in memory (estimated size 27.5 KB, free 4.9 MB)
+17/11/08 09:45:48.121 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_20_piece0 stored as bytes in memory (estimated size 12.0 KB, free 4.9 MB)
+17/11/08 09:45:48.121 dispatcher-event-loop-1 INFO BlockManagerInfo: Added broadcast_20_piece0 in memory on localhost:52751 (size: 12.0 KB, free: 2.4 GB)
+17/11/08 09:45:48.121 dag-scheduler-event-loop INFO SparkContext: Created broadcast 20 from broadcast at DAGScheduler.scala:1006
+17/11/08 09:45:48.122 dag-scheduler-event-loop INFO DAGScheduler: Submitting 6 missing tasks from ShuffleMapStage 8 (MapPartitionsRDD[55] at rdd at package.scala:174)
+17/11/08 09:45:48.122 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 8.0 with 6 tasks
+17/11/08 09:45:48.125 dispatcher-event-loop-2 INFO TaskSetManager: Starting task 0.0 in stage 8.0 (TID 10, localhost, partition 0,PROCESS_LOCAL, 2297 bytes)
+17/11/08 09:45:48.125 dispatcher-event-loop-2 INFO TaskSetManager: Starting task 1.0 in stage 8.0 (TID 11, localhost, partition 1,PROCESS_LOCAL, 2297 bytes)
+17/11/08 09:45:48.125 Executor task launch worker-0 INFO Executor: Running task 0.0 in stage 8.0 (TID 10)
+17/11/08 09:45:48.126 Executor task launch worker-1 INFO Executor: Running task 1.0 in stage 8.0 (TID 11)
+17/11/08 09:45:48.139 Executor task launch worker-1 INFO HadoopRDD: Input split: file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/exchange_rate.txt:127020+127020
+17/11/08 09:45:48.139 Executor task launch worker-0 INFO HadoopRDD: Input split: file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/exchange_rate.txt:0+127020
+17/11/08 09:45:48.158 Executor task launch worker-1 INFO GenerateUnsafeProjection: Code generated in 7.891676 ms
+17/11/08 09:45:48.166 Executor task launch worker-1 INFO GenerateUnsafeProjection: Code generated in 6.250653 ms
+17/11/08 09:45:48.184 Executor task launch worker-1 INFO GenerateUnsafeProjection: Code generated in 13.397716 ms
+17/11/08 09:45:48.195 Executor task launch worker-1 INFO GenerateUnsafeProjection: Code generated in 7.825215 ms
+17/11/08 09:45:48.221 Executor task launch worker-1 INFO GenerateUnsafeProjection: Code generated in 19.330012 ms
+17/11/08 09:45:48.230 Executor task launch worker-0 INFO GenerateMutableProjection: Code generated in 6.667884 ms
+17/11/08 09:45:49.107 dispatcher-event-loop-3 INFO BlockManagerInfo: Removed broadcast_0_piece0 on localhost:52751 in memory (size: 20.6 KB, free: 2.4 GB)
+17/11/08 09:45:49.109 dispatcher-event-loop-2 INFO BlockManagerInfo: Removed broadcast_16_piece0 on localhost:52751 in memory (size: 4.9 KB, free: 2.4 GB)
+17/11/08 09:45:49.112 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 47
+17/11/08 09:45:49.115 dispatcher-event-loop-1 INFO BlockManagerInfo: Removed broadcast_15_piece0 on localhost:52751 in memory (size: 4.9 KB, free: 2.4 GB)
+17/11/08 09:45:49.116 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 46
+17/11/08 09:45:49.118 dispatcher-event-loop-0 INFO BlockManagerInfo: Removed broadcast_14_piece0 on localhost:52751 in memory (size: 4.9 KB, free: 2.4 GB)
+17/11/08 09:45:49.119 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 44
+17/11/08 09:45:49.119 Spark Context Cleaner INFO ContextCleaner: Cleaned accumulator 1
+17/11/08 09:45:50.002 Executor task launch worker-0 INFO Executor: Finished task 0.0 in stage 8.0 (TID 10). 3605 bytes result sent to driver
+17/11/08 09:45:50.002 dispatcher-event-loop-1 INFO TaskSetManager: Starting task 2.0 in stage 8.0 (TID 12, localhost, partition 2,PROCESS_LOCAL, 2297 bytes)
+17/11/08 09:45:50.002 task-result-getter-2 INFO TaskSetManager: Finished task 0.0 in stage 8.0 (TID 10) in 1880 ms on localhost (1/6)
+17/11/08 09:45:50.002 Executor task launch worker-0 INFO Executor: Running task 2.0 in stage 8.0 (TID 12)
+17/11/08 09:45:50.002 Executor task launch worker-0 INFO HadoopRDD: Input split: file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/exchange_rate.txt:0+127020
+17/11/08 09:45:50.174 Executor task launch worker-1 INFO Executor: Finished task 1.0 in stage 8.0 (TID 11). 3605 bytes result sent to driver
+17/11/08 09:45:50.174 dispatcher-event-loop-3 INFO TaskSetManager: Starting task 3.0 in stage 8.0 (TID 13, localhost, partition 3,PROCESS_LOCAL, 2297 bytes)
+17/11/08 09:45:50.174 Executor task launch worker-1 INFO Executor: Running task 3.0 in stage 8.0 (TID 13)
+17/11/08 09:45:50.174 task-result-getter-3 INFO TaskSetManager: Finished task 1.0 in stage 8.0 (TID 11) in 2049 ms on localhost (2/6)
+17/11/08 09:45:50.174 Executor task launch worker-1 INFO HadoopRDD: Input split: file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/exchange_rate.txt:127020+127020
+17/11/08 09:45:51.315 Executor task launch worker-0 INFO Executor: Finished task 2.0 in stage 8.0 (TID 12). 3605 bytes result sent to driver
+17/11/08 09:45:51.315 dispatcher-event-loop-1 INFO TaskSetManager: Starting task 4.0 in stage 8.0 (TID 14, localhost, partition 4,PROCESS_LOCAL, 2297 bytes)
+17/11/08 09:45:51.315 task-result-getter-0 INFO TaskSetManager: Finished task 2.0 in stage 8.0 (TID 12) in 1313 ms on localhost (3/6)
+17/11/08 09:45:51.315 Executor task launch worker-2 INFO Executor: Running task 4.0 in stage 8.0 (TID 14)
+17/11/08 09:45:51.330 Executor task launch worker-2 INFO HadoopRDD: Input split: file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/exchange_rate.txt:0+127020
+17/11/08 09:45:51.518 Executor task launch worker-1 INFO Executor: Finished task 3.0 in stage 8.0 (TID 13). 3605 bytes result sent to driver
+17/11/08 09:45:51.518 dispatcher-event-loop-3 INFO TaskSetManager: Starting task 5.0 in stage 8.0 (TID 15, localhost, partition 5,PROCESS_LOCAL, 2297 bytes)
+17/11/08 09:45:51.518 task-result-getter-1 INFO TaskSetManager: Finished task 3.0 in stage 8.0 (TID 13) in 1344 ms on localhost (4/6)
+17/11/08 09:45:51.534 Executor task launch worker-0 INFO Executor: Running task 5.0 in stage 8.0 (TID 15)
+17/11/08 09:45:51.549 Executor task launch worker-0 INFO HadoopRDD: Input split: file:/D:/projects/BDT/big_data_training/spark_hw2/input_data/viachaslau_marozau/exchange_rate.txt:127020+127020
+17/11/08 09:45:52.518 Executor task launch worker-2 INFO Executor: Finished task 4.0 in stage 8.0 (TID 14). 3605 bytes result sent to driver
+17/11/08 09:45:52.518 task-result-getter-2 INFO TaskSetManager: Finished task 4.0 in stage 8.0 (TID 14) in 1203 ms on localhost (5/6)
+17/11/08 09:45:52.674 Executor task launch worker-0 INFO Executor: Finished task 5.0 in stage 8.0 (TID 15). 3605 bytes result sent to driver
+17/11/08 09:45:52.674 task-result-getter-3 INFO TaskSetManager: Finished task 5.0 in stage 8.0 (TID 15) in 1156 ms on localhost (6/6)
+17/11/08 09:45:52.674 task-result-getter-3 INFO TaskSchedulerImpl: Removed TaskSet 8.0, whose tasks have all completed, from pool 
+17/11/08 09:45:52.674 dag-scheduler-event-loop INFO DAGScheduler: ShuffleMapStage 8 (rdd at package.scala:174) finished in 4.552 s
+17/11/08 09:45:52.674 dag-scheduler-event-loop INFO DAGScheduler: looking for newly runnable stages
+17/11/08 09:45:52.674 dag-scheduler-event-loop INFO DAGScheduler: running: Set()
+17/11/08 09:45:52.674 dag-scheduler-event-loop INFO DAGScheduler: waiting: Set(ResultStage 9)
+17/11/08 09:45:52.674 dag-scheduler-event-loop INFO DAGScheduler: failed: Set()
+17/11/08 09:45:52.674 dag-scheduler-event-loop INFO DAGScheduler: Submitting ResultStage 9 (MapPartitionsRDD[64] at saveAsTextFile at package.scala:209), which has no missing parents
+17/11/08 09:45:52.690 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_21 stored as values in memory (estimated size 94.9 KB, free 4.9 MB)
+17/11/08 09:45:52.706 dag-scheduler-event-loop INFO MemoryStore: Block broadcast_21_piece0 stored as bytes in memory (estimated size 35.5 KB, free 4.9 MB)
+17/11/08 09:45:52.706 dispatcher-event-loop-1 INFO BlockManagerInfo: Added broadcast_21_piece0 in memory on localhost:52751 (size: 35.5 KB, free: 2.4 GB)
+17/11/08 09:45:52.706 dag-scheduler-event-loop INFO SparkContext: Created broadcast 21 from broadcast at DAGScheduler.scala:1006
+17/11/08 09:45:52.706 dag-scheduler-event-loop INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 9 (MapPartitionsRDD[64] at saveAsTextFile at package.scala:209)
+17/11/08 09:45:52.706 dag-scheduler-event-loop INFO TaskSchedulerImpl: Adding task set 9.0 with 1 tasks
+17/11/08 09:45:52.706 dispatcher-event-loop-2 INFO TaskSetManager: Starting task 0.0 in stage 9.0 (TID 16, localhost, partition 0,NODE_LOCAL, 7442 bytes)
+17/11/08 09:45:52.706 Executor task launch worker-0 INFO Executor: Running task 0.0 in stage 9.0 (TID 16)
+17/11/08 09:45:52.846 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:52.846 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:52.877 Executor task launch worker-0 INFO GenerateOrdering: Code generated in 20.694931 ms
+17/11/08 09:45:52.893 Executor task launch worker-0 INFO GenerateUnsafeProjection: Code generated in 6.050859 ms
+17/11/08 09:45:52.924 Executor task launch worker-0 INFO GenerateMutableProjection: Code generated in 8.633829 ms
+17/11/08 09:45:52.940 Executor task launch worker-0 INFO GenerateUnsafeProjection: Code generated in 4.771272 ms
+17/11/08 09:45:52.940 Executor task launch worker-0 INFO GeneratePredicate: Code generated in 2.413534 ms
+17/11/08 09:45:52.956 Executor task launch worker-0 INFO GenerateUnsafeProjection: Code generated in 6.24409 ms
+17/11/08 09:45:52.971 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:52.971 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:52.987 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:52.987 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:52.987 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:52.987 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.003 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.003 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.003 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.003 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.018 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.018 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.018 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.018 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.034 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.034 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.034 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.034 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.049 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.049 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.049 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.049 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.065 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.065 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.065 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.065 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.081 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.081 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.081 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.081 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.096 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.096 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.096 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.096 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.096 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.096 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.112 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.112 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.112 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.112 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.112 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.112 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.128 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.128 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.128 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.128 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.128 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.128 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.143 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.143 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.143 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.143 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.143 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.143 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.159 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.159 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.159 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.159 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.159 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.159 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.174 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.174 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.174 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.174 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.174 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.174 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.174 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.174 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.190 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.190 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.190 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.190 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.190 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.190 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.206 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.206 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.206 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.206 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.206 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.206 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.221 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.221 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.221 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.221 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.221 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.221 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.237 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.237 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.237 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.237 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.237 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.237 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.237 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.237 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.253 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.253 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.253 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.253 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.253 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.253 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.268 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.268 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.268 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.268 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.268 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.268 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.284 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.284 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.284 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.284 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.284 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.284 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.284 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.284 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.299 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.299 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.299 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.299 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.299 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.299 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.299 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.299 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.315 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.315 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.315 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.315 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.315 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.315 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.315 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.315 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.331 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.331 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.331 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.331 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.331 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.331 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.331 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.331 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.346 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.346 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.346 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.346 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.346 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.346 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.362 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.362 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.362 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.362 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.362 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.362 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.378 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.378 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.378 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.378 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.378 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.378 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.393 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.393 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.393 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.393 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.393 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.393 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.393 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.393 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.409 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.409 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.409 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.409 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.409 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.409 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.409 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.424 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 15 ms
+17/11/08 09:45:53.424 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.424 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.424 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.424 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.424 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.424 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.440 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.440 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.440 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.440 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.440 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.440 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.440 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.456 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 16 ms
+17/11/08 09:45:53.456 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.456 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.456 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.456 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.456 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.456 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.471 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.471 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.471 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.471 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.471 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.471 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.471 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.471 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.487 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.487 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.487 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.487 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.487 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.487 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.503 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.503 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.503 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.503 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.503 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.503 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.503 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.518 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 15 ms
+17/11/08 09:45:53.518 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.518 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.518 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.518 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.518 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.518 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.518 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.518 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.534 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.534 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.534 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.534 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.534 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.534 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.549 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.549 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.549 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.549 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.549 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.549 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.565 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.565 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.565 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.565 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.565 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.565 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.581 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.581 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.581 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.581 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.581 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.581 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.596 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.596 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.596 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.596 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.596 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.596 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.596 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.596 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.612 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.612 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.612 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.612 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.612 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.612 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.628 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.628 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.628 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.628 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.628 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.628 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.628 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.628 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.643 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.643 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.643 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.643 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.643 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.643 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.643 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.643 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.643 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.643 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.659 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.659 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.659 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.659 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.659 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.659 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.659 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.659 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.659 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.659 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.674 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.674 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.674 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.674 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.674 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.674 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.674 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.690 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.690 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.690 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.690 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.690 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.690 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.690 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.706 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.706 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.706 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.706 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.706 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.706 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.706 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.706 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.706 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.706 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.721 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.721 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.721 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.721 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.721 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.721 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.737 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.737 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.737 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.737 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.737 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.737 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.737 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.737 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.737 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.737 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.753 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.753 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.753 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.753 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.753 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.753 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.753 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.753 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.753 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.753 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.753 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.753 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.768 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.768 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.768 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.768 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.768 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.768 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.768 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.768 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.784 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.784 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.784 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.784 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.784 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.784 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.784 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.784 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.799 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.799 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.799 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.799 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.799 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.799 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.799 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.799 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.799 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.799 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.815 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.815 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.815 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.815 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.815 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.815 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.815 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.815 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.831 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.831 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.831 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.831 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.831 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.831 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.831 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.831 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.831 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.831 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.846 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.846 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.846 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.846 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.846 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.846 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.862 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.862 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 16 ms
+17/11/08 09:45:53.862 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.862 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.862 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.862 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.862 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Getting 6 non-empty blocks out of 6 blocks
+17/11/08 09:45:53.862 Executor task launch worker-0 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+17/11/08 09:45:53.878 Executor task launch worker-0 INFO FileOutputCommitter: Saved output of task 'attempt_201711080945_0009_m_000000_16' to file:/D:/projects/BDT/big_data_training/spark_hw2/output_data/viachaslau_marozau/aggregated/_temporary/0/task_201711080945_0009_m_000000
+17/11/08 09:45:53.878 Executor task launch worker-0 INFO SparkHadoopMapRedUtil: attempt_201711080945_0009_m_000000_16: Committed
+17/11/08 09:45:53.878 Executor task launch worker-0 INFO Executor: Finished task 0.0 in stage 9.0 (TID 16). 3445 bytes result sent to driver
+17/11/08 09:45:53.878 task-result-getter-0 INFO TaskSetManager: Finished task 0.0 in stage 9.0 (TID 16) in 1172 ms on localhost (1/1)
+17/11/08 09:45:53.878 task-result-getter-0 INFO TaskSchedulerImpl: Removed TaskSet 9.0, whose tasks have all completed, from pool 
+17/11/08 09:45:53.878 dag-scheduler-event-loop INFO DAGScheduler: ResultStage 9 (saveAsTextFile at package.scala:209) finished in 1.172 s
+17/11/08 09:45:53.878 main INFO DAGScheduler: Job 7 finished: saveAsTextFile at package.scala:209, took 5.777715 s
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/static/sql,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/SQL/execution,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/SQL/json,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/SQL,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/api,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/static,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+17/11/08 09:45:53.956 main INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs,null}
+17/11/08 09:45:54.008 main INFO SparkUI: Stopped Spark web UI at http://192.168.56.1:4040
+17/11/08 09:45:54.024 dispatcher-event-loop-0 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+17/11/08 09:45:54.149 main INFO MemoryStore: MemoryStore cleared
+17/11/08 09:45:54.149 main INFO BlockManager: BlockManager stopped
+17/11/08 09:45:54.149 main INFO BlockManagerMaster: BlockManagerMaster stopped
+17/11/08 09:45:54.149 dispatcher-event-loop-0 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+17/11/08 09:45:54.149 main INFO SparkContext: Successfully stopped SparkContext
+17/11/08 09:45:54.164 sparkDriverActorSystem-akka.actor.default-dispatcher-4 INFO RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+17/11/08 09:45:54.164 Thread-2 INFO ShutdownHookManager: Shutdown hook called
+17/11/08 09:45:54.164 sparkDriverActorSystem-akka.actor.default-dispatcher-4 INFO RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+17/11/08 09:45:54.164 Thread-2 INFO ShutdownHookManager: Deleting directory C:\Users\Viachaslau_Marozau\AppData\Local\Temp\spark-2fea8ec5-62b7-4295-a3cc-abb3a6311906
+17/11/08 09:45:54.164 Thread-2 INFO ShutdownHookManager: Deleting directory C:\Users\Viachaslau_Marozau\AppData\Local\Temp\spark-d53e9bb4-396e-4c45-91b5-00575f651d58
+17/11/08 09:45:54.195 sparkDriverActorSystem-akka.actor.default-dispatcher-4 INFO RemoteActorRefProvider$RemotingTerminator: Remoting shut down.

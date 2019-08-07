@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS weather_tmp;
+DROP TABLE IF EXISTS weather;
+DROP DATABASE IF EXISTS weatherdb;

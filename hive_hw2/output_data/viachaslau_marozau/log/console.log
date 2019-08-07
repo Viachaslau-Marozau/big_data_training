@@ -1,0 +1,58 @@
+Connecting to jdbc:hive2://localhost:10000/hive_hw2
+Connected to: Apache Hive (version 1.2.1000.2.6.1.0-129)
+Driver: Hive JDBC (version 1.2.1000.2.6.1.0-129)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+0: jdbc:hive2://localhost:10000/hive_hw2> DROP TABLE IF EXISTS canceled_flights_tmp;
+No rows affected (0.213 seconds)
+0: jdbc:hive2://localhost:10000/hive_hw2> CREATE TEMPORARY TABLE canceled_flights_tmp AS
+0: jdbc:hive2://localhost:10000/hive_hw2> SELECT f.uniquecarrier AS uniquecarrier,
+0: jdbc:hive2://localhost:10000/hive_hw2>        f.origin AS citycode
+0: jdbc:hive2://localhost:10000/hive_hw2> FROM flights f
+0: jdbc:hive2://localhost:10000/hive_hw2> WHERE f.cancelled <> 0;
+INFO  : Number of reduce tasks is set to 0 since there's no reduce operator
+INFO  : number of splits:1
+INFO  : Submitting tokens for job: job_1506932192958_0015
+INFO  : The url to track the job: http://sandbox.hortonworks.com:8088/proxy/application_1506932192958_0015/
+INFO  : Starting Job = job_1506932192958_0015, Tracking URL = http://sandbox.hortonworks.com:8088/proxy/application_1506932192958_0015/
+INFO  : Kill Command = /usr/hdp/2.6.1.0-129/hadoop/bin/hadoop job  -kill job_1506932192958_0015
+INFO  : Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 0
+INFO  : 2017-10-02 10:12:09,469 Stage-1 map = 0%,  reduce = 0%
+INFO  : 2017-10-02 10:12:19,387 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 8.7 sec
+INFO  : MapReduce Total cumulative CPU time: 8 seconds 700 msec
+INFO  : Ended Job = job_1506932192958_0015
+INFO  : Stage-4 is selected by condition resolver.
+INFO  : Stage-3 is filtered out by condition resolver.
+INFO  : Stage-5 is filtered out by condition resolver.
+INFO  : Moving data to directory hdfs://sandbox.hortonworks.com:8020/apps/hive/warehouse/hive_hw2.db/.hive-staging_hive_2017-10-02_10-12-01_325_3997976515506353606-32/-ext-10001 from hdfs://sandbox.hortonworks.com:8020/apps/hive/warehouse/hive_hw2.db/.hive-staging_hive_2017-10-02_10-12-01_325_3997976515506353606-32/-ext-10003
+INFO  : Moving data to directory hdfs://sandbox.hortonworks.com:8020/tmp/hive/root/ba5a1990-8ac4-4fbd-b6d8-e0af09c9247b/_tmp_space.db/4988a822-88ee-41f3-9429-80b3308a2317 from hdfs://sandbox.hortonworks.com:8020/apps/hive/warehouse/hive_hw2.db/.hive-staging_hive_2017-10-02_10-12-01_325_3997976515506353606-32/-ext-10001
+INFO  : Table hive_hw2.canceled_flights_tmp stats: [numFiles=1, numRows=160748, totalSize=1125236, rawDataSize=964488]
+No rows affected (20.335 seconds)
+0: jdbc:hive2://localhost:10000/hive_hw2>
+0: jdbc:hive2://localhost:10000/hive_hw2> SELECT c.description AS carrier,
+0: jdbc:hive2://localhost:10000/hive_hw2>        count(cft.uniquecarrier) AS canceled_flights,
+0: jdbc:hive2://localhost:10000/hive_hw2>        concat_ws(", ", collect_set(a.city)) AS cities
+0: jdbc:hive2://localhost:10000/hive_hw2> FROM canceled_flights_tmp cft
+0: jdbc:hive2://localhost:10000/hive_hw2> JOIN carriers c ON cft.uniquecarrier = c.code
+0: jdbc:hive2://localhost:10000/hive_hw2> JOIN airports a ON cft.citycode = a.iata
+0: jdbc:hive2://localhost:10000/hive_hw2> GROUP BY c.description
+0: jdbc:hive2://localhost:10000/hive_hw2> HAVING canceled_flights > 1
+0: jdbc:hive2://localhost:10000/hive_hw2> ORDER BY canceled_flights DESC;INFO  : Execution completed successfully
+INFO  : MapredLocal task succeeded
+INFO  : Number of reduce tasks not specified. Estimated from input data size: 1
+INFO  : In order to change the average load for a reducer (in bytes):
+INFO  :   set hive.exec.reducers.bytes.per.reducer=<number>
+INFO  : In order to limit the maximum number of reducers:
+INFO  :   set hive.exec.reducers.max=<number>
+INFO  : In order to set a constant number of reducers:
+INFO  :   set mapreduce.job.reduces=<number>
+INFO  : number of splits:1
+INFO  : Submitting tokens for job: job_1506932192958_0016
+INFO  : The url to track the job: http://sandbox.hortonworks.com:8088/proxy/application_1506932192958_0016/
+INFO  : Starting Job = job_1506932192958_0016, Tracking URL = http://sandbox.hortonworks.com:8088/proxy/application_1506932192958_0016/
+INFO  : Kill Command = /usr/hdp/2.6.1.0-129/hadoop/bin/hadoop job  -kill job_1506932192958_0016
+INFO  : Hadoop job information for Stage-3: number of mappers: 1; number of reducers: 1
+INFO  : 2017-10-02 10:12:36,765 Stage-3 map = 0%,  reduce = 0%
+INFO  : 2017-10-02 10:12:44,184 Stage-3 map = 100%,  reduce = 0%, Cumulative CPU 6.49 sec
+INFO  : 2017-10-02 10:12:51,609 Stage-3 map = 100%,  reduce = 100%, Cumulative CPU 11.59 sec
+INFO  : MapReduce Total cumulative CPU time: 11 seconds 590 msec
+INFO  : Ended Job = job_1506932192958_0016
