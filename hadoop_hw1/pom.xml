@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <hadoop.repository.version>2.7.3</hadoop.repository.version>
+        <hadoop.repository.version>3.2.3</hadoop.repository.version>
         <mrunit.repository.version>1.0.0</mrunit.repository.version>
     </properties>
 
